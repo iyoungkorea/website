@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sticky-banner">   
+        <header id="banner">
+            <img src="images/logo.png" alt="YoungKorea Logo" id="site-logo">   
+        </header>
+        <div id="site-switcher">
+            <a id="switch-link" href="">
+              <img id="switch-logo" src="" alt="switch logo" style="height: 20px;">
+            </a>
+          </div>
+            <div id="language-switcher" style="float: right; cursor: pointer;">
+                <button data-lang="EN" class="active" style="font-size: 17px;">🇬🇧</button>
+                <button data-lang="KR" style="font-size: 17px;">🇰🇷</button>
+                <button data-lang="JP" style="font-size: 17px;">🇯🇵</button>
+                <button data-lang="CN" style="font-size: 17px;">🇨🇳</button>
+            </div>
+        </div>  
+    <main>
+        <header id="nav-bar">
+            <nav style="padding: 0px;">
+                <a href="index.html" id="nav-home">Home</a> |
+                <a href="about.html" id="nav-about">About</a> |
+                <a href="products.html" id="nav-products">Products</a> |
+                <a href="Manufacturers.html" id="nav-manufacturers">Manufacturers</a> |
+                <a href="Responsibility.html" id="nav-responsibility">Reponsibility</a> |
+                <a href="partnership.html" id="nav-partnership">Partnership</a> |
+                <a href="contact.html" id="nav-contact" >Contact</a>
+            </nav>
+        </header> <br><br><br>
+        
+    <section id="WelcomeBody1">
+        <h2 class="gt1" id="WelcomeTitle">Welcome to YoungKorea Logistics</h2>
+        <br><p class="gt2">____________________________________________________</p><br>
+        <p style="text-indent: 2em;">YoungKorea Logistics is more than a logistics company—we are the front line of innovation and community-led industrial collaboration in Korea. Our network represents over 20 established manufacturers with decades of field-proven experience across sectors like energy, safety, electronics, and urban infrastructure. From industrial bots/nuts and foldable helmets to semiconductor and wind power generators, each product we represent is born from hands-on expertise and sustained R&D.
+        </p> <br>
+        <p class="gt2">____________________________________________________</p>
+        <br>
+        <h2 class="gt1" id="OurMission">Our Mission</h2>
+        <p style="text-indent: 2em;">Our mission is to bridge Korea’s quietly exceptional manufacturers with global buyers seeking quality, precision, and reliability. Through this platform, we provide a gateway to explore verified products, initiate B2B conversations, and support scalable partnerships. We believe legacy and modernity should not be in conflict—and our logistics infrastructure ensures that innovation reaches the world without friction.</p>
+        <p class="gt2">____________________________________________________</p>
+    
+    </section>
+    <br><br><br>
+
+
+
+
+
+    </main>
+    <footer>
+        <p> 경기 시흥시 매화산단로 135<br>전화번호: 031-311-4368 (영업시간 09:00~18:00)<br>Copyright © 1996-2025 <strong>YoungKorea Co.,Ltd</strong></p>        
+    </footer>
+
+    <script src="banner.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const currentURL = window.location.pathname;
+          const switchLink = document.getElementById("switch-link");
+          const switchLogo = document.getElementById("switch-logo");
+      
+          if (currentURL.includes("/Logistics/")) {
+            switchLink.href = "../index.html";
+            switchLogo.src = "images/logoB.png";
+            switchLogo.alt = "Go to Main Site";
+          } else {
+            switchLink.href = "Logistics/index.html";
+            switchLogo.src = "images/logoA.png";
+            switchLogo.alt = "Go to Logistics Site";
+          }
+        });
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sticky-banner">   
+        <header id="banner">
+            <img src="images/logo.png" alt="YoungKorea Logo" id="site-logo">   
+        </header>
+        <div id="site-switcher">
+            <a id="switch-link" href="">
+              <img id="switch-logo" src="" alt="switch logo" style="height: 20px;">
+            </a>
+          </div>
+           
+            <div id="language-switcher" style="float: right; cursor: pointer;">
+                <button data-lang="EN" class="active" style="font-size: 17px;">🇬🇧</button>
+                <button data-lang="KR" style="font-size: 17px;">🇰🇷</button>
+                <button data-lang="JP" style="font-size: 17px;">🇯🇵</button>
+                <button data-lang="CN" style="font-size: 17px;">🇨🇳</button>
+            </div>
+        </div>  
+    <main>
+        <header id="nav-bar">
+            <nav style="padding: 0px;">
+                <a href="index.html" id="nav-home">Home</a> |
+                <a href="about.html" id="nav-about">About</a> |
+                <a href="products.html" id="nav-products">Products</a> |
+                <a href="Manufacturers.html" id="nav-manufacturers">Manufacturers</a> |
+                <a href="Responsibility.html" id="nav-responsibility">Reponsibility</a> |
+                <a href="partnership.html" id="nav-partnership">Partnership</a> |
+                <a href="contact.html" id="nav-contact" >Contact</a>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <p id="contact-text">We’d love to hear from you! Whether you have questions about our products, need technical support, or are interested in collaborating with us, our team is here to help. Fill out the contact form, and one of our representatives will get back to you promptly. You can also find our phone number, email address, and office location details below. At YoungKorea, we value every opportunity to connect with our customers and partners.</p>
+        <p class="gt2">______________________________________</p>
+        <br>
+        <h2 class="gt1" id="contact-location">How to Find Us</h2>
+        <p id="address"><strong>Address:</strong><br>135, Maehwasandan-ro,<br>Siheung-si, Gyeonggi-do,<br>Republic of Korea, 14931(Postal code)</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12675.217320144902!2d126.80862195523713!3d37.41809955323461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b648eda1b11b1%3A0x91f09131647d8f34!2z6rK96riw64-EIOyLnO2dpeyLnCDrp6TtmZTsgrDri6jroZwgMTM1!5e0!3m2!1sko!2skr!4v1747183794331!5m2!1sko!2skr" 
+            width="900"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <br>  
+        <p class="gt2">________________________________</p>
+        <div id="contact-body">
+            <div id="contact-body1">
+                <h2 class="gt1" id="contact-title">Contact Us</h2>
+                <form action="https://formsubmit.co/kignodnos@naver.com" style="padding-left: 5px;" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="_cc" value="kignodnos@outlook.com">
+                    <input type="hidden" name="_template" value="basic">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="_replyto" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <label for="file">Attach File:</label><br>
+                    <input type="file" name="attachment" accept="image/png, image/jpeg, image/pdf"><br><br>
+                    <button type="submit" class="button">Send</button>
+                </form>
+            </div>
+            <div id="contact-body2">
+                <p>⏰ Work Hours:<br>09:00 ~ 18:00<br>(UTC +09:00)<br>Weekdays</p>
+                <p>📞 Phone:<br>+82 031-311-4368 </p>
+                <p>📧 E-mail:<br>youngkorea7@gmail.com </p>
+            </div>
+        </div>    
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    </main>
+    <footer>
+        <p> 경기 시흥시 매화산단로 135<br>전화번호: 031-311-4368 (영업시간 09:00~18:00)<br>Copyright © 1996-2025 <strong>YoungKorea Co.,Ltd</strong></p>        
+    </footer>
+
+    <script src="banner.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const currentURL = window.location.pathname;
+          const switchLink = document.getElementById("switch-link");
+          const switchLogo = document.getElementById("switch-logo");
+      
+          if (currentURL.includes("/Logistics/")) {
+            switchLink.href = "../index.html";
+            switchLogo.src = "images/logoB.png";
+            switchLogo.alt = "Go to Main Site";
+          } else {
+            switchLink.href = "Logistics/index.html";
+            switchLogo.src = "images/logoA.png";
+            switchLogo.alt = "Go to Logistics Site";
+          }
+        });
+      </script>
+
+</body>
+</html>
