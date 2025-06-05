@@ -15,6 +15,7 @@
     z-index: 1000;
   }
   
+
   .dropbtn {
     background-color: transparent;
     border: none;
@@ -22,14 +23,16 @@
     font-size: 20px;
     cursor: pointer;
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
   
   .dropbtn::after {
       content: "";
       display: inline-block;
-      width: 17px;
-      height: 17px;
-      margin-left: 10px;
+      width: 18px;
+      height: 18px;
       background-image: url('images/language.png'); /* or .png/.webp */
       background-size: contain;
       background-repeat: no-repeat;
@@ -50,7 +53,7 @@
   .dropdown-content button {
     width: 100%;
     padding: 8px;
-    text-align: right;
+    text-align: center;
     background: rgba(255, 255, 255, 0);
     cursor: pointer;
     font-size: 19px;
@@ -66,7 +69,16 @@
   #language-switcher.show .dropdown-content {
     display: block;
   }
+  .flag-icon {
+    height: 17px;
+    width: auto;
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
   
+  .flag-icon:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 6px #010f20ac);
+  }
 
   /*display(flex=show, none=hidden)*/
 

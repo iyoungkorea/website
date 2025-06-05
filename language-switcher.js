@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionButtons = optionsContainer.querySelectorAll("button");
   
     const savedLang = localStorage.getItem("language") || "EN";
-    selectedBtn.innerText = getFlag(savedLang);
+    selectedBtn.innerHTML = getFlag(savedLang);
     selectedBtn.dataset.lang = savedLang;
     setLanguage(savedLang);
   
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     optionButtons.forEach(button => {
       button.addEventListener("click", () => {
         const lang = button.dataset.lang;
-        selectedBtn.innerText = getFlag(lang);
+        selectedBtn.innerHTML = getFlag(lang);
         selectedBtn.dataset.lang = lang;
         localStorage.setItem("language", lang);
         setLanguage(lang);
@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function getFlag(lang) {
     switch (lang) {
-      case "KR": return "🇰🇷";
-      case "JP": return "🇯🇵";
-      case "CN": return "🇨🇳";
-      default: return "🇬🇧";
+      case "KR": return `<img src="images/flag/KR.svg" alt="KR" class="flag-icon">`;
+      case "JP": return `<img src="images/flag/JP.svg" alt="JP" class="flag-icon">`;
+      case "CN": return `<img src="images/flag/CN.svg" alt="CN" class="flag-icon">`;
+      default:   return `<img src="images/flag/EN.svg" alt="EN" class="flag-icon">`;
     }
-  }  
+  }
 function setLanguage(lang) {
     // Update text content dynamically
     
