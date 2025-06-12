@@ -30,8 +30,19 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         ` : "";
   
+        const pdfButton = product.pdf
+          ? `<button class="pdf-btn" data-pdf="${product.pdf}" title="Download PDF">
+                <img src="pdfs/pdf-icon.png" alt="Download PDF">
+            </button>`
+          : `<button class="pdf-btn no-file" title="No file available">
+                <img src="pdfs/pdf-icon-disabled.png" alt="No PDF">
+            </button>`;
+
+
+
         card.innerHTML = `
         <div class="image-container">
+          ${pdfButton}
           <img src="${product.image}" alt="${product.name}">
           ${specTable}
         </div>
@@ -44,4 +55,21 @@ document.addEventListener("DOMContentLoaded", () => {
       section.appendChild(groupContainer);
       container.appendChild(section);
     });
+  });
+
+  document.addEventListener("click", (e) => {
+    if (e.target.closest(".pdf-btn")) {
+      const btn = e.target.closest(".pdf-btn");
+      const pdf = btn.getAttribute("data-pdf");
+  
+      if (btn.classList.contains("no-file") || !pdf) {
+        alert("The file is not currently available.");
+        return;
+      }
+  
+      const confirmView = confirm("Do you want to open this PDF file in a new tab?");
+if (confirmView) {
+  window.open(pdf, "_blank");
+}
+    }
   });
