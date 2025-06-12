@@ -148,7 +148,7 @@ window.productList = [
           ["Other", "IR(Infrared Radiation)*4"],
           ["Water Resistance", "IP69"],
         ] },
-        { name: "BMC-21SL", description: "-", image: "images/BMC_21SL.png", pdf: "pdfs/BMC-21SL(EN).pdf",
+        { name: "YK-21SL", description: "-", image: "images/YK_21SL.png", pdf: "pdfs/YK-21SL(EN).pdf",
         specs:[
           ["ITEM", "DESCRIPTION"],
           ["Imagr Sensor", "1/2.8″ SONY(STARVIS) CMOS "],
