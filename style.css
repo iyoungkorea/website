@@ -112,9 +112,9 @@
 }
 
 #site-logo {
-  width: 45vw; /* Adjust logo size */
+  width: 50vw; /* Adjust logo size */
   height: auto; /* Maintain aspect ratio */
-  padding-left: 5%;
+  padding-left: 7%;
 }
 
 
@@ -195,7 +195,7 @@ main {
   width: fit-content;
   max-width: 100%;
   margin: -5vh auto 0 auto;
-  background-color: rgba(176, 212, 245, 0.029);
+  background-color: rgba(176, 212, 245, 0);
   border-radius: 10px;
   transition: background-color 2.0s ease;
   padding-top: 7px;
@@ -659,12 +659,12 @@ footer {
 
 
 @media (max-width: 768px) {
-/*
+
   #site-logo {
-    width: 350px;
-    max-width: 70vw;
+    width: 70vw;
+    height: auto;
     padding-left: 3%;
-  }*/
+  }
 
   #welcome-1,
   #welcome-2,
