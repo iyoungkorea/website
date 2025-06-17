@@ -63,7 +63,7 @@
   }
   
   .dropdown-content button:hover {
-    text-shadow: 0 0 11px black;
+    text-shadow: 0 0 8px rgb(221, 249, 4);
   } 
   
   #language-switcher.show .dropdown-content {
@@ -77,7 +77,7 @@
   
   .flag-icon:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 6px #03162eed);
+    filter: drop-shadow(0 0 5px #e1ff00ed);
   }
 
   /*display(flex=show, none=hidden)*/
@@ -193,7 +193,7 @@ main {
   
   #nav-bar {
     position: sticky;
-    top: 1.5%;
+    top: 2.5%;
     z-index: 999;
     width: fit-content;
     max-width: 100%;
@@ -201,10 +201,11 @@ main {
     background-color: rgba(176, 212, 245, 0.029);
     border-radius: 10px;
     transition: background-color 2.0s ease;
+    padding-top: 5px;
   }
 
   #nav-bar.stuck {
-    background-color: rgba(212, 228, 246, 0.85); /* or any color you want */
+    background-color: rgba(200, 221, 245, 0.677); /* or any color you want */
     border-radius: 15px;
     box-shadow: 0 2px 6px rgba(23, 23, 190, 0.369)
 }
@@ -221,7 +222,7 @@ main {
 
 
 #nav-bar nav a:hover {
-    text-shadow: 0 0 8px #2ce5d2a5;
+    text-shadow: 0 0 8px #5df78656;
 }
 
 main {
@@ -402,10 +403,19 @@ footer {
     border: none;
     border-radius: 5px;
     background-color: #caf4fc00;
-
-
-
 }
+
+.ourfield-box {
+  display: flex;
+}
+
+.ourfield-box img {
+  width: 50%;
+  height: auto;
+}
+
+
+
 
 /*products*/
 
@@ -703,4 +713,20 @@ footer {
     .map-container iframe {
         height: 250px;     /* smaller height */
       }
+    
+    #dynamic-content {
+      margin: 5px;
+      padding: 5px;
+    }
+    
+      
+    .ourfield-box {
+      flex-direction: column;
+    }
+    .ourfield-box img {
+      width:100%;
+      height: auto;
+      max-width: 100%;
+    }
+
 }
