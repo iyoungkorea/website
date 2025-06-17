@@ -194,7 +194,7 @@ main {
   z-index: 999;
   width: fit-content;
   max-width: 100%;
-  margin: -5vh auto 0 auto;
+  margin: -2vh auto 0 auto;
   background-color: rgba(176, 212, 245, 0);
   border-radius: 10px;
   transition: background-color 2.0s ease;
@@ -663,8 +663,22 @@ footer {
   #site-logo {
     width: 70vw;
     height: auto;
-    padding-left: 3%;
+    padding-left: 4%;
   }
+
+  #nav-bar {
+    position: sticky;
+    top: 2.5%;
+    z-index: 999;
+    width: fit-content;
+    max-width: 100%;
+    margin: -7vh auto 0 auto;
+    background-color: rgba(176, 212, 245, 0);
+    border-radius: 10px;
+    transition: background-color 2.0s ease;
+    padding-top: 7px;
+  }
+
 
   #welcome-1,
   #welcome-2,
