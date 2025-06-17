@@ -112,9 +112,9 @@
 }
 
 #site-logo {
-  width: 500px; /* Adjust logo size */
+  width: 45vw; /* Adjust logo size */
   height: auto; /* Maintain aspect ratio */
-  padding-left: 7%;
+  padding-left: 5%;
 }
 
 
@@ -230,7 +230,8 @@ footer {
   position: static;
   bottom: 0;
   width: 100%;
-  background-color: #f8f9fa;
+  background: 
+     linear-gradient(to top, rgba(115, 174, 241, 0.588) 0%, rgba(255, 255, 255, 0) 100%);
   text-align: center;
   padding: 0;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
@@ -250,7 +251,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  opacity: 0.35;
+  opacity: 0.4;
   z-index: 0;
 }
 
@@ -658,12 +659,12 @@ footer {
 
 
 @media (max-width: 768px) {
-
+/*
   #site-logo {
-    width: 180px;
+    width: 350px;
     max-width: 70vw;
     padding-left: 3%;
-  }
+  }*/
 
   #welcome-1,
   #welcome-2,
