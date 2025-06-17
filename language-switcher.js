@@ -64,7 +64,15 @@ function setLanguage(lang) {
     if (document.getElementById("welcome2-text")) {
         document.getElementById("welcome2-text").innerText = translations[lang].welcome2Text;
     }
-    ["nav-welcome", "nav-history", "nav-our-field"].forEach(id => {
+    if (document.getElementById("welcome3-title")) {
+        document.getElementById("welcome3-title").innerText = translations[lang].welcome3Title;
+    }
+
+    if (document.getElementById("welcome3-text")) {
+        document.getElementById("welcome3-text").innerText = translations[lang].welcome3Text;
+    }
+
+    ["nav-overview", "nav-history", "nav-ourfield"].forEach(id => {
         const el = document.getElementById(id);
         if (el && translations[lang][id.replace("-", "")]) {
             el.innerText = translations[lang][id.replace("-", "")];
