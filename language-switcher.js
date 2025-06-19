@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 function setLanguage(lang) {
-    // Update text content dynamically
     
+    //NavBar
     document.getElementById("nav-home").innerText = translations[lang].navHome;
     document.getElementById("nav-about").innerText = translations[lang].navAbout;
     document.getElementById("nav-products").innerText = translations[lang].navProducts;
@@ -51,7 +51,7 @@ function setLanguage(lang) {
 
     
 
-    // Page-specific updates
+    //HOME
     if (document.getElementById("welcome-title")) {
         document.getElementById("welcome-title").innerText = translations[lang].welcomeTitle;
     }
@@ -71,7 +71,10 @@ function setLanguage(lang) {
     if (document.getElementById("welcome3-text")) {
         document.getElementById("welcome3-text").innerText = translations[lang].welcome3Text;
     }
+    document.getElementById("Partnership-link").innerText = translations[lang].partnershiplink;
 
+
+    //ABOUT
     ["nav-overview", "nav-history", "nav-ourfield"].forEach(id => {
         const el = document.getElementById(id);
         if (el && translations[lang][id.replace("-", "")]) {
@@ -96,6 +99,9 @@ function setLanguage(lang) {
         document.getElementById("about-text3").innerText = translations[lang].aboutText3;
     }
 
+
+
+    //PRODUCTS
     if (document.getElementById("products-title")) {
         document.getElementById("products-title").innerText = translations[lang].productsTitle;
     }
@@ -105,12 +111,44 @@ function setLanguage(lang) {
     if (document.getElementById("partnership-title")) {
         document.getElementById("partnership-title").innerText = translations[lang].partnershipTitle;
     }
+    
+    
+    
+    //PARTNERSHIP
     if (document.getElementById("partnership-text")) {
         document.getElementById("partnership-text").innerText = translations[lang].partnershipText;
     }
+    if (document.getElementById("partnership-title2")) {
+        document.getElementById("partnership-title2").innerText = translations[lang].partnershipTitle2;
+    }
+    if (document.getElementById("Ot1")) {
+        document.getElementById("Ot1").innerText = translations[lang].Ot1;
+    }
+    if (document.getElementById("Ot11")) {
+        document.getElementById("Ot11").innerText = translations[lang].Ot11;
+    }
+    if (document.getElementById("Ot2")) {
+        document.getElementById("Ot2").innerText = translations[lang].Ot2;
+    }
+    if (document.getElementById("Ot21")) {
+        document.getElementById("Ot21").innerText = translations[lang].Ot21;
+    }
+    if (document.getElementById("partnership-text3")) {
+        document.getElementById("partnetship-text3").innerText = translations[lang].partnershipText3;
+    }
+    if (document.getElementById("partnership-text4")) {
+        document.getElementById("partnetship-text4").innerText = translations[lang].partnershipText4;
+    }
+
+    
+    
+    
     if (document.getElementById("partnership-text2")) {
         document.getElementById("partnership-text2").innerText = translations[lang].partnershipText2;
     }
+    
+    
+    //CONTACT
     if (document.getElementById("contact-title")) {
         document.getElementById("contact-title").innerText = translations[lang].contactTitle;
     }
@@ -123,6 +161,9 @@ function setLanguage(lang) {
     if (document.getElementById("address")) {
         document.getElementById("address").innerHTML = translations[lang].contactAddress;
     }
+    
+    
+    //RESPONSIBILITY
     if (document.getElementById("R-title")) {
         document.getElementById("R-title").innerHTML = translations[lang].contactRtitle;
     }
