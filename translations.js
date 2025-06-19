@@ -34,12 +34,13 @@ const translations = {
         partnershipText: "At YoungKorea, we believe in building strong partnerships to drive innovation and mutual growth. We are committed to collaborating with businesses, distributors, and technology leaders who share our vision of advancing automotive AV and security solutions. By working together, we can create cutting-edge products that meet the evolving needs of the global market. Whether you’re looking to distribute our products, co-develop new technologies, or integrate our solutions into your business, we welcome the opportunity to partner with you. Join us in shaping the future of automotive technology.",
         partnershipText2: "Collaborate with YoungKorea on OEM/ODM projects, distribution, and joint development. Let’s grow together!",
         partnershipTitle2: "Our OEM/ODM capabilities",
-        partnetshipText3: "We offer comprehensive OEM/ODM solutions tailored to meet your specific requirements. Our services include:",
+        partnershipText3: "We offer comprehensive OEM/ODM solutions tailored to meet your specific requirements. Our services include:",
         Ot1: "Custom solutions for Monitors and Cameras",
         Ot11: "We provide fully customizable options for both monitors and cameras, including flexible specifications, adaptable PCB layouts, firmware customization, and wiring modifications to accommodate your project’s unique demands.",
-        Ot2: "Case and stand/Mount customization",
+        Ot2: "Case and Stand/Mount customization",
         Ot21: "Our in-house design and manufacturing allow for bespoke cases and stand/mount solutions, utilizing high-quality, automotive-grade materials to ensure durability and reliability in all environments.",
         partnershipText4: "Our team works closely with clients from initial concept through to mass production, ensuring all components meet stringent industry standards. We are committed to delivering not only product excellence but also responsive technical support and seamless integration into your existing systems.",
+        contactlink:"Ready to discuss your project? Contact us.",
 
 
         contactTitle: "Contact Us",
@@ -89,12 +90,14 @@ const translations = {
         partnershipText: "영코리아는 혁신과 상호 성장을 실현하기 위한 강력한 파트너십 구축의 중요성을 믿습니다. 당사는 자동차 AV 및 보안 솔루션의 발전이라는 비전을 공유하는 기업, 유통업체, 기술 리더들과의 협업을 지향합니다. 협력을 통해 글로벌 시장의 변화하는 요구에 부합하는 최첨단 제품을 함께 만들어 나갈 수 있습니다. 당사 제품의 유통, 공동 기술 개발, 솔루션 통합 등 다양한 형태의 협업을 환영합니다. 미래 자동차 기술을 함께 이끌어나갈 파트너로서 귀하를 기다리고 있습니다.",
         partnershipText2: "OEM/ODM 프로젝트, 제품 유통, 공동 개발을 포함한 다양한 협업 기회를 통해 영코리아와 함께 성장하세요!",
         partnershipTitle2: "저희의 OEM/ODM 역량",
-        partnetshipText3: "저희는 귀사의 구체적인 요구 사항을 충족할 수 있도록 맞춤형 OEM/ODM 종합 솔루션을 제공합니다. 주요 서비스는 다음과 같습니다:",
+        partnershipText3: "저희는 귀사의 구체적인 요구 사항을 충족할 수 있도록 맞춤형 OEM/ODM 종합 솔루션을 제공합니다. 주요 서비스는 다음과 같습니다:",
         Ot1: "모니터 및 카메라 맞춤형 솔루션",
         Ot11: "저희는 모니터와 카메라 모두에 대해 완전 맞춤형 옵션을 제공합니다. 유연한 사양, 조정 가능한 PCB 설계, 펌웨어 커스터마이징, 그리고 배선 변경 등 귀사의 프로젝트에 맞춘 다양한 요구 사항을 충족해 드립니다.",
         Ot2: "케이스 및 스탠드/마운트 맞춤 제작",
         Ot21: "자사 내 설계 및 생산 시스템을 통해 맞춤형 케이스와 스탠드/마운트 솔루션을 제공합니다. 고품질 자동차 등급의 소재를 사용하여 모든 환경에서 뛰어난 내구성과 신뢰성을 보장합니다.",
         partnershipText4: "저희 팀은 초기 컨셉 단계부터 대량 생산에 이르기까지 고객과 긴밀히 협력하며, 모든 부품이 엄격한 업계 기준을 충족하도록 관리합니다. 저희는 우수한 제품 품질은 물론, 신속한 기술 지원과 기존 시스템과의 완벽한 연동까지 책임 있게 제공합니다.",
+        contactlink:"프로젝트 상담을 원하십니까? 문의해 주세요.",
+
         
         contactTitle: "문의하기",
         contactText: "영코리아는 고객님의 소중한 의견을 기다리고 있습니다. 제품 관련 문의, 기술 지원 요청, 협업 제안 등 어떤 주제든 언제든지 환영합니다. 아래 연락처 또는 문의 양식을 통해 문의 주시면, 당사 담당자가 신속하게 답변드리겠습니다. 영코리아는 고객 및 파트너와의 모든 소통의 기회를 소중히 생각합니다.",
@@ -141,12 +144,13 @@ const translations = {
         partnershipText: "ヤングコリアは、イノベーションと相互成長を推進する強固なパートナーシップの構築を信条としています。当社は、自動車用AVおよびセキュリティソリューションの進化というビジョンを共有する企業、販売代理店、技術パートナーとの協業に取り組んでいます。協力により、グローバル市場の変化するニーズに対応する最先端の製品を共同で開発することができます。製品の販売、技術の共同開発、ソリューションの統合など、さまざまな方法でのパートナーシップの機会を歓迎いたします。自動車技術の未来を共に切り開いていきましょう。",
         partnershipText2: "OEM/ODMプロジェクト、販売、共同開発を通じて、ヤングコリアと共に成長しましょう。",
         partnershipTitle2: "当社のOEM/ODM対応力",
-        partnetshipText3: "当社はお客様の具体的なご要望に合わせた包括的なOEM/ODMソリューションを提供しております。主なサービス内容は以下の通りです。",
+        partnershipText3: "当社はお客様の具体的なご要望に合わせた包括的なOEM/ODMソリューションを提供しております。主なサービス内容は以下の通りです。",
         Ot1: "モニターおよびカメラ向けカスタムソリューション",
         Ot11: "当社は、モニターおよびカメラの両方に対して、柔軟な仕様、適応可能なPCBレイアウト、ファームウェアのカスタマイズ、配線の変更など、プロジェクトの独自のニーズに対応する完全カスタマイズオプションを提供しております。",
         Ot2: "ケースおよびスタンド／マウントのカスタマイズ",
         Ot21: "当社の社内設計および製造体制により、オーダーメイドのケースやスタンド／マウントソリューションのご提供が可能です。高品質な自動車グレードの素材を使用し、あらゆる環境下での耐久性と信頼性を確保しています。",
         partnershipText4: "当社チームは、初期のコンセプト設計から量産までお客様と緊密に連携し、すべての部品が厳格な業界基準を満たすよう徹底しています。優れた製品品質はもちろん、迅速な技術サポートや既存システムへのシームレスな統合にも力を入れています。",
+        contactlink:"プロジェクトのご相談をご希望の方は、お気軽にご連絡ください。",
 
        
         contactTitle: "お問い合わせ",
@@ -195,12 +199,13 @@ const translations = {
         partnershipText: "YoungKorea 致力于建立强有力的合作关系，以推动创新与共同发展。我们愿与志同道合的企业、经销商和技术领导者合作，共同推进车载AV与安全技术的发展。通过合作，我们可以共同开发出符合全球市场需求的前沿产品。无论您有意分销我们的产品、共同开发新技术，还是将我们的解决方案整合进您的业务，我们都欢迎与您携手共创汽车科技的未来。",
         partnershipText2: "与 YoungKorea 合作开展 OEM/ODM 项目、产品分销及联合开发，实现共同成长！",
         partnershipTitle2: "我们的OEM/ODM能力",
-        partnetshipText3: "我们提供全面的OEM/ODM解决方案，能够根据您的具体需求进行定制。我们的服务包括：",
+        partnershipText3: "我们提供全面的OEM/ODM解决方案，能够根据您的具体需求进行定制。我们的服务包括：",
         Ot1: "针对显示器和摄像头的定制化解决方案",
         Ot11: "我们为显示器和摄像头提供完全可定制的选项，包括灵活的规格、可调整的PCB布局、固件定制以及线路改造，以满足您项目的独特需求。",
         Ot2: "外壳及支架/安装座定制",
         Ot21: "我们通过自主设计和生产，提供定制化的外壳及支架/安装座解决方案。采用高品质汽车级材料，确保在各种环境下的耐用性和可靠性。",
         partnershipText4: "我们的团队从初步构想到大规模生产全程与客户紧密合作，确保所有组件均符合严格的行业标准。我们不仅致力于提供卓越的产品，还承诺及时的技术支持以及与您现有系统的无缝集成。",
+        contactlink:"准备好洽谈您的项目了吗？欢迎联系我们。",
 
        
         contactTitle: "联系我们",

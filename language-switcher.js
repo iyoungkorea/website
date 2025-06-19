@@ -71,8 +71,9 @@ function setLanguage(lang) {
     if (document.getElementById("welcome3-text")) {
         document.getElementById("welcome3-text").innerText = translations[lang].welcome3Text;
     }
-    document.getElementById("Partnership-link").innerText = translations[lang].partnershiplink;
-
+    
+    document.getElementById("Partnership-link") && (document.getElementById("Partnership-link").innerText = translations[lang].partnershiplink);
+    document.getElementById("contact-link") && (document.getElementById("contact-link").innerText = translations[lang].contactlink);
 
     //ABOUT
     ["nav-overview", "nav-history", "nav-ourfield"].forEach(id => {
@@ -108,13 +109,12 @@ function setLanguage(lang) {
     if (document.getElementById("products-text")) {
         document.getElementById("products-text").innerText = translations[lang].productsText;
     }
+    
+    //PARTNERSHIP
     if (document.getElementById("partnership-title")) {
         document.getElementById("partnership-title").innerText = translations[lang].partnershipTitle;
     }
     
-    
-    
-    //PARTNERSHIP
     if (document.getElementById("partnership-text")) {
         document.getElementById("partnership-text").innerText = translations[lang].partnershipText;
     }
@@ -134,15 +134,11 @@ function setLanguage(lang) {
         document.getElementById("Ot21").innerText = translations[lang].Ot21;
     }
     if (document.getElementById("partnership-text3")) {
-        document.getElementById("partnetship-text3").innerText = translations[lang].partnershipText3;
+        document.getElementById("partnership-text3").innerText = translations[lang].partnershipText3;
     }
     if (document.getElementById("partnership-text4")) {
-        document.getElementById("partnetship-text4").innerText = translations[lang].partnershipText4;
+        document.getElementById("partnership-text4").innerText = translations[lang].partnershipText4;
     }
-
-    
-    
-    
     if (document.getElementById("partnership-text2")) {
         document.getElementById("partnership-text2").innerText = translations[lang].partnershipText2;
     }

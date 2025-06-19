@@ -136,7 +136,7 @@ main {
 
 
 .gt1 {
-  background: linear-gradient(to right, #3e94b3fd, #2e7c99fd, #155871fd, #186c8bd3);
+  background: linear-gradient(to right, #356678fd, #3885a1fd, #1a596efd, #116786d3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Times New Roman', Times, serif;
@@ -220,6 +220,10 @@ main {
 
 #nav-bar nav a:hover {
   text-shadow: 0 0 8px #5df78656;
+}
+
+#nav-bar nav a.active {
+  text-shadow: 0 0 12px #2df6a270;
 }
 
 main {
@@ -628,7 +632,6 @@ footer {
 
 .map-container {
   width: 100%;
-  max-width: 800px;
   height: auto;
   margin: 0 auto;
 }
@@ -642,22 +645,48 @@ footer {
 
 #contact-body {
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 40px;    
+    flex-wrap: wrap; 
+    column-gap: 40px;   
 }
 
+
+#contact-body1,
+#contact-body2 {
+  flex: 1 1 0;
+}
 
 #contact-body1 {
-    width: 40%;
-
+  margin-left: 20%;
 }
-
 
 #contact-body2 {
-    width: 20%;
-    align-self: flex-end;       
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;         
+  justify-content: center;     
+  position: relative;
+  margin-left: -30%;
 }
+
+#contact-body2::before {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background: url('images/logo_icon.png') no-repeat center center;
+  background-size: 150px 110px;   
+  opacity: 0.3;         
+  pointer-events: none;   
+  z-index: 0;
+}
+
+#contact-body2 > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -748,6 +777,14 @@ footer {
     width:100%;
     height: auto;
     max-width: 100%;
+  }
+
+  
+  #contact-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap:3vh;
   }
 
 }
