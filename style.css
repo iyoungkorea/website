@@ -306,7 +306,7 @@ footer {
 }
 
 #welcome-3 img {
-  width: 85%;
+  width: 95%;
   height: auto;
   box-shadow: 0 0 30px 15px rgba(255, 255, 255, 1);
   border-radius: 15px;
@@ -563,6 +563,8 @@ footer {
     margin: 10px;
     padding: 0;
 }
+
+
 
 #ESG-E, #ESG-S, #ESG-G, #CoE {
     position: relative;

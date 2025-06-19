@@ -30,7 +30,7 @@ const translations = {
         contactText: "We’d love to hear from you! Whether you have questions about our products, need technical support, or are interested in collaborating with us, our team is here to help. Fill out the contact form, and one of our representatives will get back to you promptly. You can also find our phone number, email address, and office location details below. At YoungKorea, we value every opportunity to connect with our customers and partners.",
         contactLocation:"How to Find Us",
         contactAddress:"<strong>Address:</strong><br>135, Maehwasandan-ro,<br>Siheung-si, Gyeonggi-do,<br>Republic of Korea, 14931(Postal code)",
-        contactRtitle:"Our Commitment to Responsibility",
+        contactRtitle:"Our Commitment to Fulfilling Social and Ethical Responsibilities",
         contactRtext:"<strong>YoungKorea</strong>, we recognize that sustainable growth is inseparable from ethical governance, environmental stewardship, and social accountability. Our responsibility strategy aligns with international standards to ensure long-term value creation for all stakeholders—including our customers, employees, communities, and future generations."
     },
     KR: {
@@ -65,7 +65,7 @@ const translations = {
         contactText: "영코리아는 고객님의 소중한 의견을 기다리고 있습니다. 제품 관련 문의, 기술 지원 요청, 협업 제안 등 어떤 주제든 언제든지 환영합니다. 아래 연락처 또는 문의 양식을 통해 문의 주시면, 당사 담당자가 신속하게 답변드리겠습니다. 영코리아는 고객 및 파트너와의 모든 소통의 기회를 소중히 생각합니다.",
         contactLocation:"찾아오시는 길",
         contactAddress: "<strong>주소</strong><br>[도로명] 경기 시흥시 매화산단로 135<br>[지번] 경기 시흥시 매화동 843-2<br>[우편번호]14931",
-        contactRtitle:"사회적 책임 이행에 대한 당사의 지속적인 노력",
+        contactRtitle:"사회적,윤리적 책임 이행에 대한 당사의 지속적인 노력",
         contactRtext:"<strong>영코리아</strong>는 지속 가능한 성장이 윤리적 경영, 환경 보호, 사회적 책임과 불가분의 관계에 있음을 인식하고 있습니다. 당사의 책임 전략은 국제 기준에 부합하며, 고객, 임직원, 지역사회, 미래 세대를 포함한 모든 이해관계자에게 장기적인 가치를 창출하는 것을 목표로 합니다."
     },
 
@@ -99,7 +99,7 @@ const translations = {
         contactText: "当社へのご関心ありがとうございます。製品に関するご質問、技術サポートのご要望、または協業に関するご提案などがございましたら、ぜひご連絡ください。お問い合わせフォームにご記入いただければ、担当者より迅速にご連絡させていただきます。また、電話番号、メールアドレス、オフィス所在地の情報も以下に記載しています。ヤングコリアは、お客様およびパートナーとのつながりを大切にしております。",
         contactLocation: "アクセス",
         contactAddress:"<strong>Address:</strong><br>135, Maehwasandan-ro,<br>Siheung-si, Gyeonggi-do,<br>Republic of Korea, 14931(Postal code)",
-        contactRtitle:"社会的責任の遂行に向けた当社の継続的な取り組み",
+        contactRtitle:"社会的および倫理的責任の履行に対する当社の継続的な取り組み",
         contactRtext:"<strong>YoungKorea</strong>は、持続可能な成長が倫理的なガバナンス、環境への配慮、社会的責任と切り離せないことを認識しています。当社の責任戦略は国際基準に準拠しており、お客様、従業員、地域社会、そして将来の世代を含むすべてのステークホルダーに長期的な価値を提供することを目指しています。"
 
     },  
@@ -133,7 +133,7 @@ const translations = {
         contactText: "欢迎与我们联系！无论您对产品有疑问、需要技术支持，还是有合作意向，我们的团队都将为您提供帮助。请填写联系表格，我们的工作人员将尽快与您取得联系。您也可以在下方找到我们的电话号码、电子邮箱及办公地址。YoungKorea 珍视每一次与客户及合作伙伴沟通的机会。",
         contactLocation: "交通指南 (简体) / 交通アクセス (繁體)",
         contactAddress:"<strong>Address:</strong><br>135, Maehwasandan-ro,<br>Siheung-si, Gyeonggi-do,<br>Republic of Korea, 14931(Postal code)",
-        contactRtitle:"本公司持续履行社会责任的努力",
+        contactRtitle:"本公司持续履行社会与伦理责任的承诺",
         contactRtext:"<strong>YoungKorea</strong>深知，实现可持续增长离不开道德治理、环境保护和社会责任。我们的责任战略与国际标准保持一致，旨在为所有利益相关方——包括客户、员工、社区以及未来世代——创造长期价值。"
     }
     };
