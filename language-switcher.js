@@ -166,8 +166,130 @@ function setLanguage(lang) {
     if (document.getElementById("R-text")) {
         document.getElementById("R-text").innerHTML = translations[lang].contactRtext;
     }
-    
+    if (document.getElementById("ESG-title")) {
+        document.getElementById("ESG-title").innerHTML = translations[lang].ESGtitle;
+    }
+    if (document.getElementById("E-title")) {
+        document.getElementById("E-title").innerHTML = translations[lang].Etitle;
+    }
+    if (document.getElementById("E-text1")) {
+        document.getElementById("E-text1").innerHTML = translations[lang].Etext1;
+    }
+    if (document.getElementById("E-text2")) {
+        document.getElementById("E-text2").innerHTML = translations[lang].Etext2;
+    }
+    if (document.getElementById("E-text3")) {
+        document.getElementById("E-text3").innerHTML = translations[lang].Etext3;
+    }
+    if (document.getElementById("E-text4")) {
+        document.getElementById("E-text4").innerHTML = translations[lang].Etext4;
+    }
+    if (document.getElementById("E-text5")) {
+        document.getElementById("E-text5").innerHTML = translations[lang].Etext5;
+    }
+    if (document.getElementById("S-title")) {
+        document.getElementById("S-title").innerHTML = translations[lang].Stitle;
+    }
+    if (document.getElementById("S-text1")) {
+        document.getElementById("S-text1").innerHTML = translations[lang].Stext1;
+    }
+    if (document.getElementById("S-text2")) {
+        document.getElementById("S-text2").innerHTML = translations[lang].Stext2;
+    }
+    if (document.getElementById("S-text3")) {
+        document.getElementById("S-text3").innerHTML = translations[lang].Stext3;
+    }
+    if (document.getElementById("S-text4")) {
+        document.getElementById("S-text4").innerHTML = translations[lang].Stext4;
+    }
+    if (document.getElementById("S-text5")) {
+        document.getElementById("S-text5").innerHTML = translations[lang].Stext5;
+    }
+    if (document.getElementById("G-title")) {
+        document.getElementById("G-title").innerHTML = translations[lang].Gtitle;
+    }
+    if (document.getElementById("G-text1")) {
+        document.getElementById("G-text1").innerHTML = translations[lang].Gtext1;
+    }
+
+    if (document.getElementById("G-text2")) {
+        document.getElementById("G-text2").innerHTML = translations[lang].Gtext2;
+    }
+    if (document.getElementById("G-text3")) {
+        document.getElementById("G-text3").innerHTML = translations[lang].Gtext3;
+    }
+    if (document.getElementById("G-text4")) {
+        document.getElementById("G-text4").innerHTML = translations[lang].Gtext4;
+    }
+    if (document.getElementById("G-text5")) {
+        document.getElementById("G-text5").innerHTML = translations[lang].Gtext5;
+    }
+    if (document.getElementById("CoE-title")) {
+        document.getElementById("CoE-title").innerHTML = translations[lang].CoEtitle;
+    }
+    if (document.getElementById("CoE-text")) {
+        document.getElementById("CoE-text").innerHTML = translations[lang].CoEtext;
+    }
+    if (document.getElementById("CoE-text1")) {
+        document.getElementById("CoE-text1").innerHTML = translations[lang].CoEtext1;
+    }
+    if (document.getElementById("CoE-text2")) {
+        document.getElementById("CoE-text2").innerHTML = translations[lang].CoEtext2;
+    }
+    if (document.getElementById("CoE-text3")) {
+        document.getElementById("CoE-text3").innerHTML = translations[lang].CoEtext3;
+    }
+    if (document.getElementById("CoE-text4")) {
+        document.getElementById("CoE-text4").innerHTML = translations[lang].CoEtext4;
+    }
+    if (document.getElementById("CoE-text5")) {
+        document.getElementById("CoE-text5").innerHTML = translations[lang].CoEtext5;
+    }
+    if (document.getElementById("CoE-text6")) {
+        document.getElementById("CoE-text6").innerHTML = translations[lang].CoEtext6;
+    }
+    if (document.getElementById("CaM-title")) {
+        document.getElementById("CaM-title").innerHTML = translations[lang].CaMtitle;
+    }
+    if (document.getElementById("CaM-text1")) {
+        document.getElementById("CaM-text1").innerHTML = translations[lang].CaMtext1;
+    }
+    if (document.getElementById("CaM-text2")) {
+        document.getElementById("CaM-text2").innerHTML = translations[lang].CaMtext2;
+    }
+    if (document.getElementById("CaM-text3")) {
+        document.getElementById("CaM-text3").innerHTML = translations[lang].CaMtext3;
+    }
+    if (document.getElementById("CaM-text4")) {
+        document.getElementById("CaM-text4").innerHTML = translations[lang].CaMtext4;
+    }
+    if (document.getElementById("FG-title")) {
+        document.getElementById("FG-title").innerHTML = translations[lang].FGtitle;
+    }
+    if (document.getElementById("FG-text1")) {
+        document.getElementById("FG-text1").innerHTML = translations[lang].FGtext1;
+    }
+    if (document.getElementById("FG-text2")) {
+        document.getElementById("FG-text2").innerHTML = translations[lang].FGtext2;
+    }
+    if (document.getElementById("FG-text3")) {
+        document.getElementById("FG-text3").innerHTML = translations[lang].FGtext3;
+    }
+    if (document.getElementById("FG-text4")) {
+        document.getElementById("FG-text4").innerHTML = translations[lang].FGtext4;
+    }
+    if (document.getElementById("FG-text5")) {
+        document.getElementById("FG-text5").innerHTML = translations[lang].FGtext5;
+    }
+    if (document.getElementById("FG-text6")) {
+        document.getElementById("FG-text6").innerHTML = translations[lang].FGtext6;
+    }
+
+
+
 }
+
+
 
 function setActiveButton(lang) {
     const buttons = document.querySelectorAll("#language-switcher button");

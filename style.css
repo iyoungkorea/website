@@ -570,7 +570,7 @@ footer {
 
 
 
-#ESG-E, #ESG-S, #ESG-G, #CoE {
+#ESG-E, #ESG-S, #ESG-G, #CoEB, #CaM, #FG{
     position: relative;
 }
 
@@ -592,7 +592,9 @@ footer {
 }
 
   
-#CoE::before {
+#CoEB::before,
+#CaM::before,
+#FG::before {
   content: "";
   position: absolute;
   top: 0;
@@ -600,7 +602,7 @@ footer {
   right: 0;
   bottom: 0;
   background-repeat: no-repeat;
-  background-position: 35% center;
+  background-position: 40% center;
   background-size: contain;
   opacity: 0.3; /* specific to CoE */
   z-index: 0;
@@ -618,8 +620,16 @@ footer {
   background-image: url("images/governance.png");
 }
 
-#CoE::before {
+#CoEB::before {
   background-image: url("images/CoE.png");
+}
+
+#CaM::before {
+  background-image: url("images/CaM.png");
+}
+
+#FG::before {
+  background-image: url("images/FG.png");
 }
 
 #CoE ul,
@@ -656,16 +666,15 @@ footer {
 }
 
 #contact-body1 {
-  margin-left: 20%;
+  padding-left: 10vw;
 }
 
 #contact-body2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;         
+  flex-direction: column;      
   justify-content: center;     
   position: relative;
-  margin-left: -30%;
+  padding-right: 10vw;
 }
 
 #contact-body2::before {
@@ -677,6 +686,7 @@ footer {
   opacity: 0.3;         
   pointer-events: none;   
   z-index: 0;
+  align-items: center; 
 }
 
 #contact-body2 > * {
@@ -784,7 +794,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    row-gap:3vh;
+    row-gap:2vh;
   }
 
 }

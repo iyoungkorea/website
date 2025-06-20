@@ -50,7 +50,51 @@ const translations = {
        
        
         contactRtitle:"Our Commitment to Fulfilling Social and Ethical Responsibilities",
-        contactRtext:"<strong>YoungKorea</strong>, we recognize that sustainable growth is inseparable from ethical governance, environmental stewardship, and social accountability. Our responsibility strategy aligns with international standards to ensure long-term value creation for all stakeholders—including our customers, employees, communities, and future generations."
+        contactRtext:"<strong>YoungKorea</strong>, we recognize that sustainable growth is inseparable from ethical governance, environmental stewardship, and social accountability. Our responsibility strategy aligns with international standards to ensure long-term value creation for all stakeholders—including our customers, employees, communities, and future generations.",
+        ESGtitle: "ESG Principles", 
+        Etitle: "Environmental",  
+        Etext1: "Adoption of energy-efficient equipment and processes",
+        Etext2: "Waste and emissions reduction through optimized supply chain and logistics",
+        Etext3: "Promoting recycling and sustainable packaging",
+        Etext4: "Compliance with RoHS and REACH directives",
+        Etext5: "Regular environmental impact assessments",
+
+        Stitle: "Social",
+        Stext1: "Fair labor practices and safe working conditions across the supply chain",
+        Stext2: "Equal opportunity hiring and diversity promotion",
+        Stext3: "Mandatory compliance training for all employees",
+        Stext4: "Community engagement through education and local development programs",
+        Stext5: "Protection of human rights in all operations",
+
+        Gtitle: "Governance",
+        Gtext1: "Transparent reporting and independent audits",
+        Gtext2: "Board diversity and clear separation of executive roles",
+        Gtext3: "Zero-tolerance policy for corruption, bribery, or unethical behavior",
+        Gtext4: "Active compliance with anti-trust and trade regulations",
+        Gtext5: "Clear channels for whistleblower protection and investigation",
+
+        CoEtitle: "Code of Ethics",
+        CoEtext: "Our <strong>Code of Ethics</strong> governs internal and external conduct and ensures alignment with international legal frameworks and market expectations.",
+        CoEtext1: "Upholding ethical standards in all business activities",
+        CoEtext2: "Committing to compliance with applicable laws and regulations",
+        CoEtext3: "Promoting a culture of honesty, trust, and respect",
+        CoEtext4: "Encouraging transparency in our operations and decisions",
+        CoEtext5: "Respecting privacy and the confidentiality of sensitive information",
+        CoEtext6: "Continuously improving ethical practices as standards evolve",
+
+        CaMtitle: "Certifications and Memberships",
+        CaMtext1: "Compliance with ISO, E-mark, and other international automotive safety related standards",
+        CaMtext2: "Monitor and participate in evolving regulatory and industry-wide programs.",
+        CaMtext3: "Emphasize continual improvement and transparency through regular review of memberships and standards.",
+        CaMtext4: "Stay open to future certifications that reflect our commitment to quality and responsibility.",
+
+        FGtitle: "Future Goals",
+        FGtext1: "Continue exploring innovative sustainability practices and partnerships.",
+        FGtext2: "Expand green logistics and carbon offset programs",
+        FGtext3: "Remain proactive in adopting advanced technologies and global best practices for social and environmental impact.",
+        FGtext4: "Evaluate and update our sustainability objectives regularly in response to industry developments.",
+        FGtext5: "Strengthen engagement with our stakeholders to identify and pursue new avenues for responsible growth.",
+        FGtext6: "Aim to set and achieve ambitious, yet adaptable, ESG benchmarks in line with evolving global standards."
     },
     
     
@@ -106,7 +150,51 @@ const translations = {
        
        
         contactRtitle:"사회적,윤리적 책임 이행에 대한 당사의 지속적인 노력",
-        contactRtext:"<strong>영코리아</strong>는 지속 가능한 성장이 윤리적 경영, 환경 보호, 사회적 책임과 불가분의 관계에 있음을 인식하고 있습니다. 당사의 책임 전략은 국제 기준에 부합하며, 고객, 임직원, 지역사회, 미래 세대를 포함한 모든 이해관계자에게 장기적인 가치를 창출하는 것을 목표로 합니다."
+        contactRtext:"<strong>영코리아</strong>는 지속 가능한 성장이 윤리적 경영, 환경 보호, 사회적 책임과 불가분의 관계에 있음을 인식하고 있습니다. 당사의 책임 전략은 국제 기준에 부합하며, 고객, 임직원, 지역사회, 미래 세대를 포함한 모든 이해관계자에게 장기적인 가치를 창출하는 것을 목표로 합니다.",
+        ESGtitle: "ESG 원칙",
+        Etitle: "환경",
+        Etext1: "에너지 효율적인 장비 및 공정 도입",
+        Etext2: "최적화된 공급망 및 물류를 통한 폐기물 및 배출 감소",
+        Etext3: "재활용 및 친환경 포장 촉진",
+        Etext4: "RoHS 및 REACH 지침 준수",
+        Etext5: "정기적인 환경 영향 평가",
+        
+        Stitle: "사회",
+        Stext1: "공급망 전반의 공정 노동 관행 및 안전한 근무 환경 보장",
+        Stext2: "기회균등 채용과 다양성 증진",
+        Stext3: "모든 임직원의 의무 준수 교육",
+        Stext4: "교육 및 지역사회 개발 프로그램을 통한 지역사회 참여",
+        Stext5: "모든 사업 운영에서 인권 보호",
+        
+        Gtitle: "지배구조",
+        Gtext1: "투명한 보고 및 독립적인 감사",
+        Gtext2: "이사회 다양성과 경영진 역할의 명확한 분리",
+        Gtext3: "부패, 뇌물수수, 비윤리적 행위에 대한 무관용 정책",
+        Gtext4: "공정거래 및 독점금지 규정의 적극적 준수",
+        Gtext5: "내부고발자 보호 및 조사를 위한 명확한 창구",
+        
+        CoEtitle: "윤리강령",
+        CoEtext: "우리의 <strong>윤리강령</strong>은 대내외 모든 행동을 관리하며, 국제 법률 및 시장 기준과의 정렬을 보장합니다.",
+        CoEtext1: "모든 비즈니스 활동에서 윤리적 기준 준수",
+        CoEtext2: "적용 법률 및 규정 준수에 대한 약속",
+        CoEtext3: "정직, 신뢰, 존중의 문화 조성",
+        CoEtext4: "운영 및 의사결정의 투명성 장려",
+        CoEtext5: "개인정보 및 민감 정보의 프라이버시와 기밀성 존중",
+        CoEtext6: "기준의 변화에 따라 윤리적 관행 지속적 개선",
+        
+        CaMtitle: "인증 및 회원가입",
+        CaMtext1: "ISO, E-mark 등 국제 자동차 안전 관련 기준 준수",
+        CaMtext2: "진화하는 규제 및 산업 전반의 프로그램 모니터링 및 참여",
+        CaMtext3: "정기적인 멤버십 및 기준 검토를 통한 지속적 개선과 투명성 강조",
+        CaMtext4: "품질과 책임에 대한 우리의 의지를 반영하는 미래 인증에 개방적인 태도",
+        
+        FGtitle: "미래 목표",
+        FGtext1: "지속 가능한 혁신적 관행과 파트너십을 계속 모색",
+        FGtext2: "친환경 물류 및 탄소 상쇄 프로그램 확대",
+        FGtext3: "사회 및 환경에 미치는 영향에 있어 첨단 기술과 글로벌 모범 사례를 적극 도입",
+        FGtext4: "업계 동향에 따라 지속가능성 목표를 정기적으로 평가 및 갱신",
+        FGtext5: "책임 있는 성장을 위한 새로운 방안 모색을 위해 이해관계자와의 소통 강화",
+        FGtext6: "진화하는 글로벌 기준에 맞춘 야심차면서도 유연한 ESG 벤치마크 설정 및 달성 목표"
     },
 
    
@@ -160,7 +248,51 @@ const translations = {
         
         
         contactRtitle:"社会的および倫理的責任の履行に対する当社の継続的な取り組み",
-        contactRtext:"<strong>YoungKorea</strong>は、持続可能な成長が倫理的なガバナンス、環境への配慮、社会的責任と切り離せないことを認識しています。当社の責任戦略は国際基準に準拠しており、お客様、従業員、地域社会、そして将来の世代を含むすべてのステークホルダーに長期的な価値を提供することを目指しています。"
+        contactRtext:"<strong>YoungKorea</strong>は、持続可能な成長が倫理的なガバナンス、環境への配慮、社会的責任と切り離せないことを認識しています。当社の責任戦略は国際基準に準拠しており、お客様、従業員、地域社会、そして将来の世代を含むすべてのステークホルダーに長期的な価値を提供することを目指しています。",
+        ESGtitle: "ESGの原則",
+        Etitle: "環境",
+        Etext1: "エネルギー効率の高い設備やプロセスの導入",
+        Etext2: "最適化されたサプライチェーンと物流による廃棄物および排出物の削減",
+        Etext3: "リサイクルと持続可能な包装の推進",
+        Etext4: "RoHSおよびREACH指令の遵守",
+        Etext5: "定期的な環境影響評価",
+        
+        Stitle: "社会",
+        Stext1: "サプライチェーン全体での公正な労働慣行と安全な労働環境",
+        Stext2: "機会均等な採用と多様性の促進",
+        Stext3: "全従業員への義務的なコンプライアンス研修",
+        Stext4: "教育や地域開発プログラムを通じた地域社会への貢献",
+        Stext5: "全事業における人権の保護",
+        
+        Gtitle: "ガバナンス",
+        Gtext1: "透明性のある報告および独立した監査",
+        Gtext2: "取締役会の多様性と経営層の役割分担の明確化",
+        Gtext3: "汚職・賄賂・非倫理的行為に対するゼロトレランスポリシー",
+        Gtext4: "独占禁止法・公正取引法などへの積極的な遵守",
+        Gtext5: "内部通報者の保護と調査のための明確な窓口",
+        
+        CoEtitle: "倫理規範",
+        CoEtext: "当社の<strong>倫理規範</strong>は、社内外の行動を管理し、国際的な法的枠組みや市場基準との整合性を確保します。",
+        CoEtext1: "すべての事業活動における倫理基準の遵守",
+        CoEtext2: "適用される法令および規則の遵守の約束",
+        CoEtext3: "誠実・信頼・尊重の文化の促進",
+        CoEtext4: "業務や意思決定の透明性を推進",
+        CoEtext5: "個人情報および機密情報のプライバシーと秘密保持の尊重",
+        CoEtext6: "基準の進化に合わせた倫理的実践の継続的な改善",
+        
+        CaMtitle: "認証と会員",
+        CaMtext1: "ISO、Eマーク、その他の国際自動車安全規格への準拠",
+        CaMtext2: "変化する規制や業界全体のプログラムへのモニタリングと参加",
+        CaMtext3: "会員資格や基準の定期的な見直しによる継続的改善と透明性の重視",
+        CaMtext4: "品質と責任への取り組みを反映する将来の認証にも前向きな姿勢",
+        
+        FGtitle: "将来の目標",
+        FGtext1: "革新的な持続可能性実践やパートナーシップの継続的な探求",
+        FGtext2: "グリーン物流やカーボンオフセットプログラムの拡大",
+        FGtext3: "社会・環境への影響のための先端技術やグローバルなベストプラクティスの積極導入",
+        FGtext4: "業界動向に応じてサステナビリティ目標を定期的に評価・更新",
+        FGtext5: "責任ある成長のための新たな道を模索するためのステークホルダーとの連携強化",
+        FGtext6: "進化する世界基準に沿った野心的かつ柔軟なESGベンチマークの設定と達成を目指す"
 
     },  
    
@@ -215,6 +347,50 @@ const translations = {
        
        
         contactRtitle:"本公司持续履行社会与伦理责任的承诺",
-        contactRtext:"<strong>YoungKorea</strong>深知，实现可持续增长离不开道德治理、环境保护和社会责任。我们的责任战略与国际标准保持一致，旨在为所有利益相关方——包括客户、员工、社区以及未来世代——创造长期价值。"
+        contactRtext:"<strong>YoungKorea</strong>深知，实现可持续增长离不开道德治理、环境保护和社会责任。我们的责任战略与国际标准保持一致，旨在为所有利益相关方——包括客户、员工、社区以及未来世代——创造长期价值。",
+        ESGtitle: "ESG原则",
+        Etitle: "环境",
+        Etext1: "采用节能设备和工艺",
+        Etext2: "通过优化供应链和物流减少废弃物和排放",
+        Etext3: "推广回收和可持续包装",
+        Etext4: "遵守RoHS和REACH指令",
+        Etext5: "定期开展环境影响评估",
+        
+        Stitle: "社会",
+        Stext1: "确保供应链各环节的公平劳动实践和安全工作环境",
+        Stext2: "机会平等招聘和多样性促进",
+        Stext3: "全体员工的强制性合规培训",
+        Stext4: "通过教育和社区发展项目参与社会",
+        Stext5: "在所有业务中保护人权",
+        
+        Gtitle: "治理",
+        Gtext1: "透明的报告与独立审计",
+        Gtext2: "董事会多元化及高管职责分离",
+        Gtext3: "对腐败、贿赂或不道德行为零容忍",
+        Gtext4: "积极遵守反垄断和贸易法规",
+        Gtext5: "为举报人保护和调查提供清晰渠道",
+        
+        CoEtitle: "道德准则",
+        CoEtext: "我们的<strong>道德准则</strong>规范内部和外部行为，并确保与国际法律框架和市场期望保持一致。",
+        CoEtext1: "在所有业务活动中坚持道德标准",
+        CoEtext2: "承诺遵守适用法律和法规",
+        CoEtext3: "促进诚信、信任和尊重的企业文化",
+        CoEtext4: "鼓励运营和决策的透明度",
+        CoEtext5: "尊重隐私和敏感信息的机密性",
+        CoEtext6: "随着标准的发展持续改进道德实践",
+        
+        CaMtitle: "认证与会员",
+        CaMtext1: "符合ISO、E-mark等国际汽车安全相关标准",
+        CaMtext2: "监测并参与不断变化的法规和行业计划",
+        CaMtext3: "通过定期审查会员资格和标准强调持续改进和透明度",
+        CaMtext4: "积极对待未来体现我们质量与责任承诺的认证",
+        
+        FGtitle: "未来目标",
+        FGtext1: "持续探索创新的可持续发展实践和合作伙伴关系",
+        FGtext2: "扩展绿色物流和碳补偿项目",
+        FGtext3: "积极采纳先进技术和全球最佳社会与环境实践",
+        FGtext4: "根据行业发展定期评估和更新可持续发展目标",
+        FGtext5: "加强与利益相关者的沟通，发掘并推动负责任增长的新途径",
+        FGtext6: "旨在制定并实现与全球标准相符的有雄心且灵活的ESG基准"
     }
     };
