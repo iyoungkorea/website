@@ -23,7 +23,7 @@ window.addEventListener('scroll', function () {
     const banner = document.getElementById('sticky-banner');
     const siteSwitcher = document.getElementById('site-switcher');
     const languageSwitcher = document.getElementById('language-switcher');
-    const stopPoint = 90;
+    const stopPoint = window.innerHeight * 0.07;
   
     if (window.scrollY >= stopPoint) {
       banner.style.position = 'absolute';

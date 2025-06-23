@@ -112,7 +112,7 @@
 }
 
 #site-logo {
-  width: 50vw; /* Adjust logo size */
+  width: 40vw; /* Adjust logo size */
   height: auto; /* Maintain aspect ratio */
   padding-left: 7%;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 main {
-  padding: 300px 10% 0px;
+  padding: 0 10% 0px;
 }
 
 
@@ -190,16 +190,17 @@ main {
   
 #nav-bar {
   position: sticky;
-  top: 2.5%;
   z-index: 999;
   width: fit-content;
   max-width: 100%;
-  margin: -2vh auto 0 auto;
+  margin: 25vh auto 0 auto;
   background-color: rgba(176, 212, 245, 0);
   border-radius: 10px;
   transition: background-color 2.0s ease;
   padding-top: 7px;
+  top: 2.5%;
 }
+
 
 #nav-bar.stuck {
   background-color: rgba(200, 221, 245, 0.677); /* or any color you want */
@@ -266,7 +267,13 @@ footer {
 
 
 
-#welcome-body1 {
+#welcome-main {
+  padding-top: 10vh;
+}
+
+#welcome-body1,
+#welcome-body2,
+#welcome-body3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -296,11 +303,6 @@ footer {
 }
 
 
-#welcome-body2 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 
 #welcome-3 {
   flex: 4;
@@ -324,11 +326,6 @@ footer {
   box-sizing: border-box;
 }
 
-#welcome-body3 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 
 #welcome-5 {
   flex:4;
@@ -392,7 +389,7 @@ footer {
 
 #about-nav a:hover {
     text-shadow: 0 0 11px rgba(233, 234, 234, 0.645);;
-}
+} 
 
 #about-nav a.active {
     background-color: #4fa1e0b4;
@@ -591,7 +588,26 @@ footer {
   z-index: 0;
 }
 
-  
+#partnership{
+  position: relative;
+}
+#partnership::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.2;
+  z-index: 0;
+}
+#partnership::before {
+  background-image: url("images/partnership1.png")
+}
+
 #CoEB::before,
 #CaM::before,
 #FG::before {
@@ -677,29 +693,18 @@ footer {
   padding-right: 10vw;
 }
 
-#contact-body2::before {
-  content: "";
-  position: absolute;
-  inset: 0; 
-  background: url('images/logo_icon.png') no-repeat center center;
-  background-size: 150px 110px;   
-  opacity: 0.3;         
-  pointer-events: none;   
-  z-index: 0;
-  align-items: center; 
-}
-
-#contact-body2 > * {
-  position: relative;
-  z-index: 1;
-}
-
-
 
 
 
 
 @media (max-width: 768px) {
+
+  main {
+    display: fex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
   #site-logo {
     width: 70vw;
@@ -707,19 +712,23 @@ footer {
     padding-left: 4%;
   }
 
-  #nav-bar {
-    position: sticky;
-    top: 2.5%;
-    z-index: 999;
-    width: fit-content;
-    max-width: 100%;
-    margin: -7vh auto 0 auto;
-    background-color: rgba(176, 212, 245, 0);
-    border-radius: 10px;
-    transition: background-color 2.0s ease;
-    padding-top: 7px;
+  #banner {
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(to bottom, rgba(95, 163, 240, 0.872) 0%, rgba(255, 255, 255, 0.142) 100%); 
+    color: white;
+    height: 18vh; 
+
   }
 
+  #nav-bar{
+    margin-top: 20vh;
+  }
+
+  #welcome-main {
+    padding-top: 2vh;
+  }
 
   #welcome-1,
   #welcome-2,
@@ -798,3 +807,71 @@ footer {
   }
 
 }
+
+@media (min-width: 2000px) {
+  /* Layout the three columns side by side */
+ 
+  main {
+    font-size: 2em;
+  }
+  
+  #nav-bar{
+    margin-top: 25vh;
+  }
+
+  #welcome-main {
+    padding-top: 5vh;
+  }
+
+  #welcome-body1,
+  #welcome-body2,
+  #welcome-body3 {
+    float: left;
+    width: 33.3333%;
+    box-sizing: border-box;
+    display: block !important;
+    padding: 0 2vw;
+    height: 50vh; /* adjust as needed */
+  }
+
+
+  /* Stack the children vertically in each column */
+  #welcome-body1 > #welcome-1,
+  #welcome-body1 > #welcome-2,
+  #welcome-body2 > #welcome-3,
+  #welcome-body2 > #welcome-4,
+  #welcome-body3 > #welcome-5,
+  #welcome-body3 > #welcome-6 {
+    width: 100%;
+    float: none;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 2vw;
+  }
+
+  #welcome-2 img,
+  #welcome-3 img,
+  #welcome-6 img {
+    width: 80%;
+    max-width: 100%;
+  }
+
+  
+}
+
+@media (orientation: portrait) {
+  
+  #body {}
+  
+  #nav-bar {
+    margin-top: 14vh;
+  }
+  #banner {
+    padding-top: 2vh;
+    height: 12vh;
+  }
+  #welcome-main {
+    padding-top: 3vh;
+  }
+}
+
