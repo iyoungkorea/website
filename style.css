@@ -268,7 +268,7 @@ footer {
 
 
 #welcome-main {
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 #welcome-body1,
@@ -861,14 +861,14 @@ footer {
 
 @media (orientation: portrait) {
   
-  #body {}
+  
   
   #nav-bar {
-    margin-top: 14vh;
+    margin-top: 16vh;
   }
   #banner {
-    padding-top: 2vh;
-    height: 12vh;
+    padding-top: 5vh;
+    height: 13vh;
   }
   #welcome-main {
     padding-top: 3vh;
