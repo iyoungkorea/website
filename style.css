@@ -358,6 +358,17 @@ footer {
   border-radius: 25px;
 }
 
+#Partnership-link,
+#contact-link {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+#Partnership-link:hover,
+#contact-link:hover {
+  transform: scale(1.15);
+}
+
 
 
 #semi-footer {
@@ -830,7 +841,8 @@ h3.gt4 {
     text-shadow: 0 0 12px #5ef1b49b;
     transform: scale(1.1);
   }
-  
+
+
 
   #category-navbar{
     position: sticky;
