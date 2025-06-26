@@ -109,6 +109,9 @@ function setLanguage(lang) {
     if (document.getElementById("products-text")) {
         document.getElementById("products-text").innerText = translations[lang].productsText;
     }
+    if (document.getElementById("pdf-download")) {
+        document.getElementById("pdf-download").innerText = translations[lang].pdfDownload;
+    }
     
     //PARTNERSHIP
     if (document.getElementById("partnership-title")) {

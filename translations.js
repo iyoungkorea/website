@@ -30,6 +30,9 @@ const translations = {
         
         productsTitle: "Our Products",
         productsText: "At YoungKorea, we offer a diverse range of automotive products designed to enhance safety, entertainment, and convenience for drivers and passengers alike. Our product lineup includes vehicle TVs, monitors, cameras, black boxes, and advanced navigation systems—all developed with state-of-the-art technology. Whether you’re looking for reliable security features or superior in-car entertainment, our products are built to exceed your expectations. Browse our catalog to find the perfect solution for your needs.",
+        pdfDownload:"For more details, click the PDF icon located at the top left of each product image.",
+       
+       
         partnershipTitle: "Partnership Opportunities",
         partnershipText: "At YoungKorea, we believe in building strong partnerships to drive innovation and mutual growth. We are committed to collaborating with businesses, distributors, and technology leaders who share our vision of advancing automotive AV and security solutions. By working together, we can create cutting-edge products that meet the evolving needs of the global market. Whether you’re looking to distribute our products, co-develop new technologies, or integrate our solutions into your business, we welcome the opportunity to partner with you. Join us in shaping the future of automotive technology.",
         partnershipText2: "Collaborate with YoungKorea on OEM/ODM projects, distribution, and joint development. Let’s grow together!",
@@ -130,6 +133,8 @@ const translations = {
         
         productsTitle: "제품 소개",
         productsText: "영코리아는 운전자와 탑승자의 안전, 엔터테인먼트, 편의성을 향상시키기 위한 다양한 자동차 제품을 제공합니다. 당사의 제품군에는 차량용 TV, 모니터, 카메라, 블랙박스, 첨단 내비게이션 시스템이 포함되어 있으며, 모두 최신 기술을 기반으로 개발되었습니다. 신뢰할 수 있는 보안 기능이나 고품질 차량용 인포테인먼트를 원하신다면, 당사의 제품이 고객의 기대를 넘어설 것입니다. 제품 카탈로그를 통해 귀하의 니즈에 맞는 최적의 솔루션을 확인해 보십시오.",
+        pdfDownload:"더 자세한 내용은 각 제품 이미지 왼쪽 상단에 있는 PDF 아이콘을 클릭하세요.",
+        
         partnershipTitle: "파트너십 기회",
         partnershipText: "영코리아는 혁신과 상호 성장을 실현하기 위한 강력한 파트너십 구축의 중요성을 믿습니다. 당사는 자동차 AV 및 보안 솔루션의 발전이라는 비전을 공유하는 기업, 유통업체, 기술 리더들과의 협업을 지향합니다. 협력을 통해 글로벌 시장의 변화하는 요구에 부합하는 최첨단 제품을 함께 만들어 나갈 수 있습니다. 당사 제품의 유통, 공동 기술 개발, 솔루션 통합 등 다양한 형태의 협업을 환영합니다. 미래 자동차 기술을 함께 이끌어나갈 파트너로서 귀하를 기다리고 있습니다.",
         partnershipText2: "OEM/ODM 프로젝트, 제품 유통, 공동 개발을 포함한 다양한 협업 기회를 통해 영코리아와 함께 성장하세요!",
@@ -228,6 +233,8 @@ const translations = {
        
         productsTitle: "当社の製品",
         productsText: "ヤングコリアは、ドライバーと乗客の安全性、エンターテインメント、利便性を高めるために設計された多様な車載製品を提供しています。当社の製品ラインナップには、車載テレビ、モニター、カメラ、ドライブレコーダー、先進的なナビゲーションシステムが含まれ、すべて最先端技術に基づいて開発されています。信頼できるセキュリティ機能や優れた車内エンターテインメントをお求めであれば、当社の製品はお客様の期待を上回るでしょう。カタログをご覧いただき、お客様のニーズに最適なソリューションをお選びください。",
+        pdfDownload:"詳細については、各製品画像の左上にあるPDFアイコンをクリックしてください。",
+        
         partnershipTitle: "パートナーシップの機会",
         partnershipText: "ヤングコリアは、イノベーションと相互成長を推進する強固なパートナーシップの構築を信条としています。当社は、自動車用AVおよびセキュリティソリューションの進化というビジョンを共有する企業、販売代理店、技術パートナーとの協業に取り組んでいます。協力により、グローバル市場の変化するニーズに対応する最先端の製品を共同で開発することができます。製品の販売、技術の共同開発、ソリューションの統合など、さまざまな方法でのパートナーシップの機会を歓迎いたします。自動車技術の未来を共に切り開いていきましょう。",
         partnershipText2: "OEM/ODMプロジェクト、販売、共同開発を通じて、ヤングコリアと共に成長しましょう。",
@@ -327,6 +334,9 @@ const translations = {
        
         productsTitle: "我们的产品",
         productsText: "YoungKorea 提供种类丰富的车载产品，旨在提升驾驶安全、娱乐体验与便利性。我们的产品系列包括车载电视、监视器、摄像头、行车记录仪以及先进的导航系统，全部采用最先进的技术开发。无论您需要的是可靠的安全功能还是高品质车内娱乐，我们的产品都将超越您的期望。浏览我们的产品目录，找到最适合您的解决方案。",
+        productDownload: "更多详情请点击每个产品图片左上角的PDF图标。",
+        
+        
         partnershipTitle: "合作机会",
         partnershipText: "YoungKorea 致力于建立强有力的合作关系，以推动创新与共同发展。我们愿与志同道合的企业、经销商和技术领导者合作，共同推进车载AV与安全技术的发展。通过合作，我们可以共同开发出符合全球市场需求的前沿产品。无论您有意分销我们的产品、共同开发新技术，还是将我们的解决方案整合进您的业务，我们都欢迎与您携手共创汽车科技的未来。",
         partnershipText2: "与 YoungKorea 合作开展 OEM/ODM 项目、产品分销及联合开发，实现共同成长！",
