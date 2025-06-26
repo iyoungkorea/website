@@ -393,11 +393,31 @@ window.productList = [
             ["Other", "Remote Control<br>RearView System<br>Driving System-option<br>AUdio(Mono)-option"],
             ["Accessory", "4M cable"],
           ] },
+
+          { name: "To Be Updated", subCategory:"",description: "-", image: "images/product/tbu.jpeg",
+          specs:[
+            ["ITEM", "DESCRIPTION"],
+            ["Display Size", ""],
+            ["Number of Pixels",""],
+            ["Active area",""],
+            ["Luminance",""],
+            ["Input",""],
+            ["Key Button",""],
+            ["Video System",""],
+            ["Audio Output", ""],
+            ["Power Source",""],
+            ["Operation Temperature", ""],
+            ["Storage Temperature", ""],
+            ["Weight", ""],
+            ["Dimension", ""],
+            ["Other", ""],
+            ["Accessory", ""],
+          ] },
+          
       ]
     },
     
-    /*
-    {
+    /*{
       category: "Assistance System",
       items: [
         { name: "To Be Updated", description: "-", image: "images/comingsoon.jpeg",
