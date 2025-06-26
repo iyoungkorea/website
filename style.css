@@ -1,3 +1,9 @@
+h1, h2, h3, h4 {
+  font-family: 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif SC', 'Noto Serif', serif;
+}
+body, p {
+  font-family: 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans', sans-serif;
+}
 
 #sticky-banner {
   position: fixed;
@@ -112,8 +118,8 @@
 }
 
 #site-logo {
-  width: 40vw; /* Adjust logo size */
-  height: auto; /* Maintain aspect ratio */
+  width: 40vw; 
+  height: auto;
   padding-left: 7%;
 }
 
@@ -125,7 +131,6 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y:auto;
-  font-family: 'roboto', sans-serif;
   background-color: #ffffff;
   color: #444;
 }
@@ -139,8 +144,8 @@ main {
   background: linear-gradient(to right, #356678fd, #3885a1fd, #1a596efd, #116786d3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Times New Roman', Times, serif;
   display: inline-block;
+  font-weight: bolder;
 }
 
 .gt2 {
@@ -214,7 +219,7 @@ main {
   -webkit-text-fill-color: transparent;
   display: inline-block;
   margin: 0 15px;
-  font-weight: bold;
+  font-weight: bolder;
   transition: text-shadow 1 ease;
 }
 
@@ -802,6 +807,7 @@ h3.gt4 {
     margin-top: 20vh;
     position: sticky;
     top: 1vh;
+    margin-bottom: -7vh;
   }
 
   #nav-bar nav a {
@@ -831,7 +837,7 @@ h3.gt4 {
     top: 5vh;
   }
   #welcome-main {
-    padding-top: 2vh;
+    margin-top: 10vh;
   }
 
   #welcome-1,
