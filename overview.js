@@ -15,7 +15,7 @@ const overview = {
         <img src="images/exhibition(3).png" style="width:33%; height:auto;">
       </div>
       <h4 style="color:#4f86c1;" id="about-text3">Production Process</h4>
-      <img src="images/process.png" style="width:85%; height:auto;">
+      <img src="images/process_en.png" style="width:85%; height:auto;">
     `,
   
     KR: `
@@ -53,7 +53,7 @@ const overview = {
         <img src="images/exhibition(3).png" style="width:33%; height:auto;">
       </div>
       <h4 style="color:#4f86c1;" id="about-text3">生産工程</h4>
-      <img src="images/process.png" style="width:85%; height:auto;">
+      <img src="images/process_en.png" style="width:85%; height:auto;">
     `,
   
     CN: `
@@ -72,6 +72,6 @@ const overview = {
         <img src="images/exhibition(3).png" style="width:33%; height:auto;">
       </div>
       <h4 style="color:#4f86c1;" id="about-text3">生产流程</h4>
-      <img src="images/process.png" style="width:85%; height:auto;">
+      <img src="images/process_en.png" style="width:85%; height:auto;">
     `
   };
