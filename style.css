@@ -746,6 +746,7 @@ h3.gt4 {
   border: 5px dotted rgba(90, 113, 242, 0.392);
   border-radius: 16px;
   padding: 2%;
+  position: relative;
 }
 
 #contact-body5 {
@@ -802,6 +803,29 @@ h3.gt4 {
   border: 5px dotted rgba(90, 113, 242, 0.392);
   border-radius: 16px;
   padding: 2%;
+}
+
+#contact-body4::before,
+#contact-body2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+#contact-body2::before {
+  background-image: url("images/contact.png")
+}
+
+#contact-body4::before {
+  background-image: url("images/findus.png")
 }
 
 
@@ -1033,6 +1057,8 @@ h3.gt4 {
     text-align: center;
   }
 
+
+
 }
 
 @media (min-width: 2000px) {
@@ -1085,6 +1111,35 @@ h3.gt4 {
   .product-card {
     width: 15%;          
   }
+
+#contact-body2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+#contact-body4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: 20% center;
+  background-size: 40%;
+  opacity: 0.2;
+  z-index: 0;
+}
+
 
   
 }
