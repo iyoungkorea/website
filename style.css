@@ -1,5 +1,5 @@
 h1, h2, h3, h4 {
-  font-family: 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif SC', 'Noto Serif', serif;
+  font-family: 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans', sans-serif;
 }
 body, p {
   font-family: 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans', sans-serif;
@@ -805,6 +805,11 @@ h3.gt4 {
   padding: 2%;
 }
 
+#contact-body4,
+#contact-body2 {
+  height: fit-content;
+}
+
 #contact-body4::before,
 #contact-body2::before {
   content: "";
@@ -1112,34 +1117,14 @@ h3.gt4 {
     width: 15%;          
   }
 
-#contact-body2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 40%;
-  opacity: 0.2;
-  z-index: 0;
-}
 
-#contact-body4::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-repeat: no-repeat;
-  background-position: 20% center;
-  background-size: 40%;
-  opacity: 0.2;
-  z-index: 0;
-}
 
+
+#contact-body,
+#contact-body3 {
+  align-items: center;
+  padding: 2% 5%;
+}
 
   
 }
