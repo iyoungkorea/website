@@ -201,7 +201,7 @@ main {
   margin: 32vh auto 0 auto;
   background-color: rgba(176, 212, 245, 0);
   border-radius: 10px;
-  transition: background-color 2.0s ease;
+  transition: 2.0s ease;
   padding-top: 7px;
   top: 2.5%;
 }
@@ -210,7 +210,8 @@ main {
 #nav-bar.stuck {
   background-color: rgba(200, 221, 245, 0.677); 
   border-radius: 15px;
-  box-shadow: 0 2px 6px rgba(23, 23, 190, 0.369)
+  box-shadow: 0 2px 6px rgba(23, 23, 190, 0.369);
+  font-size: 0.95em;
 }
  
 #nav-bar nav a {
@@ -220,7 +221,7 @@ main {
   display: inline-block;
   margin: 0 15px;
   font-weight: bolder;
-  transition: text-shadow 1 ease;
+  transition: text-shadow 1s ease;
 }
 
 
@@ -471,6 +472,10 @@ footer {
   color: #fff;
 }
 
+#category-navbar a:active {
+  background: #225da6;
+  color: #fff;
+}
 
 
 h3.gt4 {
