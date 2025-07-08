@@ -16,6 +16,6 @@ function updateCategoryNavTop() {
   document.addEventListener('DOMContentLoaded', updateCategoryNavTop);
   window.addEventListener('resize', updateCategoryNavTop);
   window.addEventListener('scroll', function() {
-    // ...your code to toggle .stuck on nav-bar...
+    
     updateCategoryNavTop();
   });

@@ -69,12 +69,13 @@ body, p {
 }
 
 .dropdown-content button:hover {
-  text-shadow: 0 0 8px rgb(221, 249, 4);
+  text-shadow: 0 0 8px rgb(7, 76, 10);
 } 
 
 #language-switcher.show .dropdown-content {
   display: block;
 }
+
 .flag-icon {
   height: 17px;
   width: auto;
@@ -83,7 +84,7 @@ body, p {
 
 .flag-icon:hover {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 5px #e1ff00ed);
+  filter: drop-shadow(0 0 5px #160364ed);
 }
 
   /*display(flex=show, none=hidden)*/
@@ -373,7 +374,7 @@ footer {
 
 
 #semi-footer {
-    width:90%;
+    width:95%;
     padding: 0;
     margin: 0 auto;
 }
@@ -571,7 +572,7 @@ h3.gt4 {
 
 .pdf-btn:hover img {
   opacity: 1;
-  filter: drop-shadow(0 0 4px #333);
+  filter: drop-shadow(0 0 4px #ee0404);
 }
 
 
@@ -579,7 +580,7 @@ h3.gt4 {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(114, 107, 107, 0.85);
+  background-color: rgba(101, 109, 124, 0.85);
   color: white;
   min-width: 100%;
   width: max-content;
@@ -595,9 +596,9 @@ h3.gt4 {
 }
 
 .spec-overlay td:nth-child(1) {
-  background-color: #aaaaab86;   /* first column background */
+  background-color: #bcbcbe86;   /* first column background */
   color: #030303;              /* first column text color */
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .spec-overlay td:nth-child(2) {
@@ -606,8 +607,8 @@ h3.gt4 {
 }
 
 .spec-overlay table tr:first-child td {
-  color: #070707; /* example: red */
-  font-weight: bold;
+  color: #070707; 
+  font-weight: bolder;
 }
   
 .image-container:hover .spec-overlay {
@@ -631,7 +632,7 @@ h3.gt4 {
 .product-card img {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #f0ecec;
 }
 
 .product-card p {
@@ -1072,7 +1073,9 @@ h3.gt4 {
   main {
     font-size: 1.4em;
   }
-  
+
+
+
   #nav-bar{
     margin-top: 28vh;
   }
@@ -1092,8 +1095,6 @@ h3.gt4 {
  
   }
 
-
-  /* Stack the children vertically in each column */
   #welcome-body1 > #welcome-1,
   #welcome-body1 > #welcome-2,
   #welcome-body2 > #welcome-3,
