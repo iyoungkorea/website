@@ -593,7 +593,10 @@ h3.gt4 {
   transition: opacity 0.3s ease;
   font-size: 12px;
   z-index: 2;
+  pointer-events: none;
 }
+
+
 
 .spec-overlay td:nth-child(1) {
   background-color: #bcbcbe86;   /* first column background */
@@ -611,9 +614,6 @@ h3.gt4 {
   font-weight: bolder;
 }
   
-.image-container:hover .spec-overlay {
-    opacity: 1;
-}
 
 .product-card:hover .spec-overlay{
     opacity: 1;
