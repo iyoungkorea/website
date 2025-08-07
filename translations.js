@@ -16,8 +16,8 @@ const translations = {
         welcomeText: "Welcome to YoungKorea. Co.,Ltd. Explore our trusted automotive AV and security solutions designed to improve driving safety worldwide.",        
         welcome2Title: "A leader in the innovation of automotive AV and security solutions.",
         welcome2Text: "YoungKorea Co., Ltd. is a specialized company that independently researches, develops, and manufactures in-vehicle TVs, monitors, cameras, black boxes, and navigation systems. Our R&D team, composed of experts with over 20 years of experience, is dedicated to achieving the highest standards of performance and quality. As a result, we have earned recognition for our superior quality and technological excellence in both domestic and international markets, receiving high praise from buyers and consumers alike.",
-        welcome3Title: "OEM/ODM Leader in Automotive Displays: 100,000+ Units Sold",
-        welcome3Text: "We have successfully manufactured and sold over 100,000 vehicle monitors to clients worldwide, establishing a strong track record in OEM and ODM solutions for automotive display systems. Our focus on custom wiring, software programming, and durable industrial design has helped us build long-term partnerships across multiple markets. Our business partners include not only domestic and international companies, but also local city bus operators and military organizations.",
+        welcome3Title: "30 Years of Excellence in OEM/ODM Automotive Solutions",
+        welcome3Text: "YoungKorea has successfully manufactured and supplied a wide range of driver assistance systems to customers worldwide for the past 30 years. In particular, we have built a strong track record in OEM and ODM solutions for automotive display and camera systems. By focusing on customized wiring, software programming, and robust industrial design, we have established long-term partnerships across diverse markets. Our business partners include not only domestic and international companies, but also local city bus operators and military-related institutions.",
         partnershiplink:"Find out more about the OEM/ODM partnership possibilities we offer.",
        
         
@@ -115,12 +115,12 @@ const translations = {
         navourfield: "사업영역",
         
         
-        welcomeTitle: "㈜영코리아에 오신 것을 환영합니다",
-        welcomeText: "㈜영코리아에 오신 것을 환영합니다. 전 세계 운전 안전성을 향상시키기 위해 설계된 신뢰할 수 있는 자동차 AV 및 보안 솔루션을 살펴보세요.",
+        welcomeTitle: "영코리아㈜에 오신 것을 환영합니다",
+        welcomeText: "영코리아㈜에 오신 것을 환영합니다. 전 세계 운전 안전성을 향상시키기 위해 설계된 신뢰할 수 있는 자동차 보안 솔루션을 살펴보세요.",
         welcome2Title: "자동차 AV 및 보안 솔루션 혁신의 선도자",
-        welcome2Text: "영코리아㈜는 차량용 TVㅣ MONITORㅣCAMERAㅣ블랙박스ㅣ 네비게이션을 자체 연구, 개발, 생산하는 전문 업체입니다. 20년 이상 경력의 전문가로 구성된 연구 개발팀은 최고의 성능과 품질을 위하여 혼신의 노력을 다하고 있으며 이로 말미암아 국내 및 해외 시장에서 품질과 기술력을 인정받아 바이어와 소비자로부터 호평을 받고 있는 회사입니다.",
-        welcome3Title: "자동차 디스플레이 분야의 OEM/ODM 선두주자: 10만 대 이상 판매",
-        welcome3Text: "영코리아는 지금까지 전 세계 고객에게 10만 대 이상의 차량용 모니터를 성공적으로 제조 및 판매해 왔으며, 자동차 디스플레이 시스템 분야에서 OEM 및 ODM 솔루션의 강력한 실적을 쌓아왔습니다. 맞춤형 배선, 소프트웨어 프로그래밍, 견고한 산업 디자인에 중점을 두어 다양한 시장에서 장기적인 파트너십을 구축해왔습니다. 저희의 비즈니스 파트너는 국내외 기업뿐만 아니라, 지역 시내버스 운영사와 군 관련 기관도 포함됩니다.",
+        welcome2Text: "영코리아㈜는 차량용 TVㅣ MONITORㅣCAMERAㅣ블랙박스ㅣ 네비게이션을 자체 연구, 개발, 생산하는 전문 업체입니다. 30년 이상 경력의 전문가로 구성된 연구 개발팀은 최고의 성능과 품질을 위하여 혼신의 노력을 다하고 있으며 이로 말미암아 국내 및 해외 시장에서 품질과 기술력을 인정받아 바이어와 소비자로부터 호평을 받고 있는 회사입니다.",
+        welcome3Title: "OEM/ODM 자동차 솔루션 분야 30년의 우수성과 신뢰",
+        welcome3Text: "영코리아는 지금까지 전 세계 고객에게 30년동안 다양한 운전 보조시스템을 성공적으로 제조 및 판매해 왔으며, 특히 자동차 디스플레이 및 카메라 시스템 분야에서 OEM 및 ODM 솔루션의 강력한 실적을 쌓아왔습니다. 맞춤형 배선, 소프트웨어 프로그래밍, 견고한 산업 디자인에 중점을 두어 다양한 시장에서 장기적인 파트너십을 구축해왔습니다. 저희의 비즈니스 파트너는 국내외 기업뿐만 아니라, 지역 시내버스 운영사와 군 관련 기관도 포함됩니다.",
         partnershiplink:"저희가 제공하는 OEM/ODM 파트너십 기회에 대해 더 알아보세요.",
 
         
@@ -140,8 +140,8 @@ const translations = {
         partnershipText2: "OEM/ODM 프로젝트, 제품 유통, 공동 개발을 포함한 다양한 협업 기회를 통해 영코리아와 함께 성장하세요!",
         partnershipTitle2: "저희의 OEM/ODM 역량",
         partnershipText3: "저희는 귀사의 구체적인 요구 사항을 충족할 수 있도록 맞춤형 OEM/ODM 종합 솔루션을 제공합니다. 주요 서비스는 다음과 같습니다:",
-        Ot1: "모니터 및 카메라 맞춤형 솔루션",
-        Ot11: "저희는 모니터와 카메라 모두에 대해 완전 맞춤형 옵션을 제공합니다. 유연한 사양, 조정 가능한 PCB 설계, 펌웨어 커스터마이징, 그리고 배선 변경 등 귀사의 프로젝트에 맞춘 다양한 요구 사항을 충족해 드립니다.",
+        Ot1: "차량용 맞춤형 안전보조 시스템 솔루션",
+        Ot11: "저희는 차량용 AV, 카메라, 및 보안과 관련하여 모두에 대해 맞춤형 옵션을 제공합니다. 유연한 사양, 조정 가능한 PCB 설계, 펌웨어 커스터마이징, 그리고 배선 변경 등 귀사의 프로젝트에 맞춘 다양한 요구 사항을 충족해 드립니다.",
         Ot2: "케이스 및 스탠드/마운트 맞춤 제작",
         Ot21: "자사 내 설계 및 생산 시스템을 통해 맞춤형 케이스와 스탠드/마운트 솔루션을 제공합니다. 고품질 자동차 등급의 소재를 사용하여 모든 환경에서 뛰어난 내구성과 신뢰성을 보장합니다.",
         partnershipText4: "저희 팀은 초기 컨셉 단계부터 대량 생산에 이르기까지 고객과 긴밀히 협력하며, 모든 부품이 엄격한 업계 기준을 충족하도록 관리합니다. 저희는 우수한 제품 품질은 물론, 신속한 기술 지원과 기존 시스템과의 완벽한 연동까지 책임 있게 제공합니다.",
@@ -219,8 +219,8 @@ const translations = {
         welcomeText: "ヤングコリア株式会社へようこそ。運転の安全性を高める信頼性の高い車載AVおよびセキュリティソリューションをご覧ください。",
         welcome2Title: "車載AVおよびセキュリティ革新のリーダー",
         welcome2Text: "ヤングコリア株式会社は、車載用テレビ、モニター、カメラ、ドライブレコーダー、ナビゲーションシステムを独自に研究・開発・製造している専門企業です。20年以上の経験を持つ専門家による研究開発チームは、最高の性能と品質を追求しており、その結果、国内外の市場で優れた品質と技術力が高く評価され、バイヤーや消費者から高い評価を受けています。",
-        welcome3Title: "車載ディスプレイのOEM/ODMリーダー：10万台以上の販売実績",
-        welcome3Text: "ヤングコリアはこれまでに世界中の顧客に10万台以上の車載用モニターを製造・販売してきた実績があり、車載ディスプレイシステムにおけるOEMおよびODMソリューションで強固な信頼を築いてきました。カスタム配線、ソフトウェアプログラミング、耐久性に優れた工業デザインに注力することで、多くの市場で長期的なパートナーシップを構築しています。当社のビジネスパートナーには、国内外の企業だけでなく、地域の市営バス運営会社や軍関係機関も含まれています。",
+        welcome3Title: "OEM/ODM車載ソリューション分野における30年の実績と卓越性",
+        welcome3Text: "ヨンコリアはこれまで30年間、世界中の顧客に多様な運転支援システムを成功裏に製造・販売してきました。特に車載ディスプレイおよびカメラシステム分野でOEMおよびODMソリューションの豊富な実績を築いてきました。カスタマイズされた配線、ソフトウェアプログラミング、堅牢な産業デザインに重点を置き、さまざまな市場で長期的なパートナーシップを構築しています。弊社のビジネスパートナーには、国内外の企業だけでなく、地域の市営バス運営会社や軍関係機関も含まれています。",
         partnershiplink:"当社が提供するOEM/ODMパートナーシップの可能性について詳しくご覧ください。",
        
        
@@ -320,8 +320,8 @@ const translations = {
         welcomeText: "欢迎访问 YoungKorea Co.,Ltd。探索我们值得信赖的车载AV和安全解决方案，提升驾驶安全。",
         welcome2Title: "引领车载AV与安全解决方案创新的企业",
         welcome2Text: "YoungKorea Co., Ltd. 是一家专注于独立研发、设计和制造车载电视、监视器、摄像头、行车记录仪以及导航系统的专业公司。我们拥有由20年以上经验专家组成的研发团队，致力于在每个环节实现最高标准的性能与质量。因此，我们在国内外市场赢得了卓越品质和技术实力的认可，深受买家和消费者的好评。",
-        welcome3Title: "汽车显示器领域的OEM/ODM领导者：已售出超过10万台",
-        welcome3Text: "Young Korea 至今已成功制造并销售超过 100,000 台车载显示器，凭借在汽车显示系统方面的 OEM 和 ODM 解决方案，建立了强大的市场信誉。我们专注于定制布线、软件编程以及耐用的工业设计，已在多个市场建立了长期合作关系。我们的业务合作伙伴不仅包括国内外企业，还包括地方公交公司和军方机构。",
+        welcome3Title: "深耕OEM/ODM汽车解决方案领域三十年 卓越品质与信赖",
+        welcome3Text: "三十年来，YoungKorea一直为全球客户成功制造和供应多种驾驶辅助系统，尤其在汽车显示及摄像系统领域积累了强大的OEM与ODM解决方案业绩。我们注重定制化布线、软件编程与坚固的工业设计，在各类市场中建立了长期合作关系。我们的合作伙伴不仅包括国内外企业，还涵盖地区公交运营商及军方相关机构。",
         partnershiplink:"了解我们提供的OEM/ODM合作机会。",
        
        
