@@ -14,7 +14,7 @@ window.productList = [
             ["Video System","NTSC<br>720@30fps<br>1080p@30fps"],
             ["Audio Output", "(Option)"],
             ["Power Source","DC12V ~ 24V"],
-            ["Power Consumption", "10W"]
+            ["Power Consumption", "10W"],
             ["Operation Temperature", "-20℃ ~ 60℃"],
             ["Storage Temperature", "-30℃ ~ 80℃"],
             ["Weight", "About 350g"],
