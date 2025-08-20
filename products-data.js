@@ -393,9 +393,9 @@ window.productList = [
       ]
     },
     {
-      category: "ADAS",
+      category: "ADAS and others",
       items: [
-        
+
           { name: "To Be Updated", subCategory:"",description: "-", image: "images/product/tbu.jpeg",
           specs:[
             ["ITEM", "DESCRIPTION"],
