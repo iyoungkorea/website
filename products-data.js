@@ -418,22 +418,8 @@ window.productList = [
 
           { name: "Ultrasonic Object Sensor", subCategory:"",description: "", image: "images/product/YK-S01_1.png", pdf: "pdfs/ADAS/YK-S01.pdf",
           specs:[
-            ["ITEM", "DESCRIPTION"],
-            ["Display Size", ""],
-            ["Number of Pixels",""],
-            ["Active area",""],
-            ["Luminance",""],
-            ["Input",""],
-            ["Key Button",""],
-            ["Video System",""],
-            ["Audio Output", ""],
-            ["Power Source",""],
-            ["Operation Temperature", ""],
-            ["Storage Temperature", ""],
-            ["Weight", ""],
-            ["Dimension", ""],
-            ["Other", ""],
-            ["Accessory", ""],
+            ["", ""],
+
           ] },
                    
           { name: "To Be Updated", subCategory:"",description: "-", image: "images/product/tbu.jpeg",
