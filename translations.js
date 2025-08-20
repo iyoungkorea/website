@@ -15,7 +15,7 @@ const translations = {
         welcomeTitle: "Welcome to YoungKorea Co.,Ltd",
         welcomeText: "Welcome to YoungKorea. Co.,Ltd. Explore our trusted automotive AV and security solutions designed to improve driving safety worldwide.",        
         welcome2Title: "A leader in the innovation of automotive AV and security solutions.",
-        welcome2Text: "YoungKorea Co., Ltd. is a specialized company that independently researches, develops, and manufactures in-vehicle TVs, monitors, cameras, black boxes, and navigation systems. Our R&D team, composed of experts with over 20 years of experience, is dedicated to achieving the highest standards of performance and quality. As a result, we have earned recognition for our superior quality and technological excellence in both domestic and international markets, receiving high praise from buyers and consumers alike.",
+        welcome2Text: "YoungKorea Co., Ltd. is a specialized company that independently researches, develops, and manufactures in-vehicle TVs, monitors, cameras, black boxes, and navigation systems. Our R&D team, composed of experts with 30 years of experience, is dedicated to achieving the highest standards of performance and quality. As a result, we have earned recognition for our superior quality and technological excellence in both domestic and international markets, receiving high praise from buyers and consumers alike.",
         welcome3Title: "30 Years of Excellence in OEM/ODM Automotive Solutions",
         welcome3Text: "YoungKorea has successfully manufactured and supplied a wide range of driver assistance systems to customers worldwide for the past 30 years. In particular, we have built a strong track record in OEM and ODM solutions for automotive display and camera systems. By focusing on customized wiring, software programming, and robust industrial design, we have established long-term partnerships across diverse markets. Our business partners include not only domestic and international companies, but also local city bus operators and military-related institutions.",
         partnershiplink:"Find out more about the OEM/ODM partnership possibilities we offer.",
@@ -23,7 +23,7 @@ const translations = {
         
         aboutTitle: "About YoungKorea",
         aboutTitle2: "A leading company in the domestic and global markets",
-        aboutText: "YoungKorea Co., Ltd. is a specialized company dedicated to the independent research, development, and manufacturing of advanced in-vehicle technologies, including TVs, monitors, cameras, black boxes, and navigation systems. Founded with a commitment to advancing automotive innovation, our expert R&D team—comprising professionals with over 20 years of experience—ensures the highest standards of performance and quality across every stage of production. Recognized both domestically and internationally, YoungKorea has earned the trust of buyers and consumers through its excellence in automotive AV and security solutions.",
+        aboutText: "YoungKorea Co., Ltd. is a specialized company dedicated to the independent research, development, and manufacturing of advanced in-vehicle technologies, including TVs, monitors, cameras, black boxes, and navigation systems. Founded with a commitment to advancing automotive innovation, our expert R&D team—comprising professionals with 30 years of experience—ensures the highest standards of performance and quality across every stage of production. Recognized both domestically and internationally, YoungKorea has earned the trust of buyers and consumers through its excellence in automotive AV and security solutions.",
         aboutText2: "Participation in electronics exhibitions held worldwide (USA, Brazil, India, Korea, Japan, Hong Kong, China, etc.)",
         aboutText3: "Production Process",
         
@@ -126,7 +126,7 @@ const translations = {
         
         aboutTitle: "영코리아 소개",
         aboutTitle2: "국내외 시장을 선도하는 기업",
-        aboutText: "영코리아 주식회사는 차량용 TV, 모니터, 카메라, 블랙박스, 내비게이션 시스템 등 첨단 차량 기술의 독자적인 연구, 개발, 제조에 전념하는 전문 기업입니다. 자동차 기술의 진보에 대한 확고한 의지를 바탕으로 설립된 당사는, 20년 이상의 경험을 갖춘 전문가들로 구성된 연구개발팀을 통해 개발부터 생산까지 모든 과정에서 최고 수준의 성능과 품질을 보장합니다. 당사는 국내외 시장에서 그 기술력과 품질을 인정받아 고객과 바이어로부터 깊은 신뢰를 얻고 있습니다.",
+        aboutText: "영코리아 주식회사는 차량용 TV, 모니터, 카메라, 블랙박스, 내비게이션 시스템 등 첨단 차량 기술의 독자적인 연구, 개발, 제조에 전념하는 전문 기업입니다. 자동차 기술의 진보에 대한 확고한 의지를 바탕으로 설립된 당사는, 30년의 경험을 갖춘 전문가들로 구성된 연구개발팀을 통해 개발부터 생산까지 모든 과정에서 최고 수준의 성능과 품질을 보장합니다. 당사는 국내외 시장에서 그 기술력과 품질을 인정받아 고객과 바이어로부터 깊은 신뢰를 얻고 있습니다.",
         aboutText2: "전 세계에서 개최되는 전자 전시회 참가 (미국, 브라질, 인도, 한국, 일본, 홍콩, 중국 등)",
         aboutText3: "생산공정",
         
@@ -218,7 +218,7 @@ const translations = {
         welcomeTitle: "ヤングコリア株式会社へようこそ",
         welcomeText: "ヤングコリア株式会社へようこそ。運転の安全性を高める信頼性の高い車載AVおよびセキュリティソリューションをご覧ください。",
         welcome2Title: "車載AVおよびセキュリティ革新のリーダー",
-        welcome2Text: "ヤングコリア株式会社は、車載用テレビ、モニター、カメラ、ドライブレコーダー、ナビゲーションシステムを独自に研究・開発・製造している専門企業です。20年以上の経験を持つ専門家による研究開発チームは、最高の性能と品質を追求しており、その結果、国内外の市場で優れた品質と技術力が高く評価され、バイヤーや消費者から高い評価を受けています。",
+        welcome2Text: "ヤングコリア株式会社は、車載用テレビ、モニター、カメラ、ドライブレコーダー、ナビゲーションシステムを独自に研究・開発・製造している専門企業です。30年以上の経験を持つ専門家による研究開発チームは、最高の性能と品質を追求しており、その結果、国内外の市場で優れた品質と技術力が高く評価され、バイヤーや消費者から高い評価を受けています。",
         welcome3Title: "OEM/ODM車載ソリューション分野における30年の実績と卓越性",
         welcome3Text: "ヨンコリアはこれまで30年間、世界中の顧客に多様な運転支援システムを成功裏に製造・販売してきました。特に車載ディスプレイおよびカメラシステム分野でOEMおよびODMソリューションの豊富な実績を築いてきました。カスタマイズされた配線、ソフトウェアプログラミング、堅牢な産業デザインに重点を置き、さまざまな市場で長期的なパートナーシップを構築しています。弊社のビジネスパートナーには、国内外の企業だけでなく、地域の市営バス運営会社や軍関係機関も含まれています。",
         partnershiplink:"当社が提供するOEM/ODMパートナーシップの可能性について詳しくご覧ください。",
@@ -226,7 +226,7 @@ const translations = {
        
         aboutTitle: "ヤングコリアについて",
         aboutTitle2: "国内外市場をリードする企業",
-        aboutText: "ヤングコリア株式会社は、車載用テレビ、モニター、カメラ、ドライブレコーダー、ナビゲーションシステムなどの先進的な車載技術を独自に研究・開発・製造する専門企業です。自動車技術の進歩に貢献するという使命のもとに設立され、20年以上の経験を持つ専門チームにより、開発から製造のあらゆる段階で最高水準の性能と品質を保証しています。国内外での技術と品質に対する高い評価を受けており、バイヤーや消費者から信頼されています。",
+        aboutText: "ヤングコリア株式会社は、車載用テレビ、モニター、カメラ、ドライブレコーダー、ナビゲーションシステムなどの先進的な車載技術を独自に研究・開発・製造する専門企業です。自動車技術の進歩に貢献するという使命のもとに設立され、30年以上の経験を持つ専門チームにより、開発から製造のあらゆる段階で最高水準の性能と品質を保証しています。国内外での技術と品質に対する高い評価を受けており、バイヤーや消費者から信頼されています。",
         aboutText2: "世界各国で開催される電子展示会に参加（アメリカ、ブラジル、インド、韓国、日本、香港、中国など）",
         aboutText3: "生産工程（せいさんこうてい）",
        
@@ -319,7 +319,7 @@ const translations = {
         welcomeTitle: "欢迎访问 YoungKorea Co.,Ltd",
         welcomeText: "欢迎访问 YoungKorea Co.,Ltd。探索我们值得信赖的车载AV和安全解决方案，提升驾驶安全。",
         welcome2Title: "引领车载AV与安全解决方案创新的企业",
-        welcome2Text: "YoungKorea Co., Ltd. 是一家专注于独立研发、设计和制造车载电视、监视器、摄像头、行车记录仪以及导航系统的专业公司。我们拥有由20年以上经验专家组成的研发团队，致力于在每个环节实现最高标准的性能与质量。因此，我们在国内外市场赢得了卓越品质和技术实力的认可，深受买家和消费者的好评。",
+        welcome2Text: "YoungKorea Co., Ltd. 是一家专注于独立研发、设计和制造车载电视、监视器、摄像头、行车记录仪以及导航系统的专业公司。我们拥有由30年以上经验专家组成的研发团队，致力于在每个环节实现最高标准的性能与质量。因此，我们在国内外市场赢得了卓越品质和技术实力的认可，深受买家和消费者的好评。",
         welcome3Title: "深耕OEM/ODM汽车解决方案领域三十年 卓越品质与信赖",
         welcome3Text: "三十年来，YoungKorea一直为全球客户成功制造和供应多种驾驶辅助系统，尤其在汽车显示及摄像系统领域积累了强大的OEM与ODM解决方案业绩。我们注重定制化布线、软件编程与坚固的工业设计，在各类市场中建立了长期合作关系。我们的合作伙伴不仅包括国内外企业，还涵盖地区公交运营商及军方相关机构。",
         partnershiplink:"了解我们提供的OEM/ODM合作机会。",
@@ -327,7 +327,7 @@ const translations = {
        
         aboutTitle: "关于 YoungKorea",
         aboutTitle2: "在国内外市场具有领导地位的企业",
-        aboutText: "YoungKorea Co., Ltd. 是一家专注于独立研发、设计和制造先进车载技术的专业公司，涵盖电视、监视器、摄像头、行车记录仪及导航系统。公司秉持推动汽车技术创新的理念，由一支拥有20年以上经验的研发专家团队提供支持，确保从研发到生产的每一阶段都达到最高品质标准。凭借卓越的技术与品质，YoungKorea 赢得了国内外客户的信任。",
+        aboutText: "YoungKorea Co., Ltd. 是一家专注于独立研发、设计和制造先进车载技术的专业公司，涵盖电视、监视器、摄像头、行车记录仪及导航系统。公司秉持推动汽车技术创新的理念，由一支拥有30年以上经验的研发专家团队提供支持，确保从研发到生产的每一阶段都达到最高品质标准。凭借卓越的技术与品质，YoungKorea 赢得了国内外客户的信任。",
         aboutText2: "积极参与全球各地举办的电子展（美国、巴西、印度、韩国、日本、香港、中国等）",
         aboutText3: "生产流程",
        
