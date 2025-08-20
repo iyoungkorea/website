@@ -396,7 +396,7 @@ window.productList = [
       category: "ADAS and others",
       items: [
 
-          { name: "YK-S02", subCategory:"",description: "Child-Safe Departure System", image: "images/product/YK-S02_i1.png", pdf: "pdfs/ADAS/YK-S02.pdf",
+          { name: "ChildGuard Alarm", subCategory:"",description: "", image: "images/product/YK-S02_i1.png", pdf: "pdfs/ADAS/YK-S02.pdf",
           specs:[
             ["ITEM", "DESCRIPTION"],
             ["Main Unit","-"],
@@ -416,7 +416,7 @@ window.productList = [
             ["Dust/Waterproof Rating", "IP54"],
           ] },
 
-          { name: "YK-S01", subCategory:"",description: "Ultrasonic object radar/sensor", image: "images/product/tbu.jpeg", pdf: "pdfs/ADAS/YK-S01.pdf",
+          { name: "Ultrasonic Object Sensor", subCategory:"",description: "", image: "images/product/YK-S01.png", pdf: "pdfs/ADAS/YK-S01.pdf",
           specs:[
             ["ITEM", "DESCRIPTION"],
             ["Display Size", ""],
