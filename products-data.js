@@ -399,7 +399,7 @@ window.productList = [
           { name: "YK-S02", subCategory:"",description: "Child-Safe Departure System", image: "images/product/YK-S02_i1.png", pdf: "pdfs/ADAS/YK-S02.pdf",
           specs:[
             ["ITEM", "DESCRIPTION"],
-            ["Main Unit",""],
+            ["Main Unit","-"],
             ["Operating Voltage", "DC 12V ~24V"],
             ["Max. Power Consumption",""],
             ["Stand by Mode","Approx. 25mA (12V)<br>Approx. 15mA (24V)"],
@@ -408,7 +408,7 @@ window.productList = [
             ["Weight","138g (w/o cable)"],
             ["Dimensions","114 x 88 x 30.5mm"],
             ["Dust/Waterproof Rating", "IP40"],
-            ["Alarm",""],
+            ["Alarm","-"],
             ["dB Level", "110±3 dB"],
             ["Max. power Consumption", "Approx. 800mA (12V)<br>Approx. 550mA (24V)"],
             ["Weight", "190g (w/o cable)"],
