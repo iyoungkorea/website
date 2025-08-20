@@ -184,7 +184,7 @@ window.productList = [
             ["Accessory", "Remote Control<br>EXT. CABLE : (Length = 1.5M) - Total = 2 Meter"],
           ] },
 
-          { name: "LV-609MM", subCategory: "others", description: "-", image: "images/product/LV-609MM.png", pdf: "pdfs/monitor/LV-609MM.pdf",
+          { name: "LV-609MM", subCategory: "Others", description: "-", image: "images/product/LV-609MM.png", pdf: "pdfs/monitor/LV-609MM.pdf",
           specs:[
             ["ITEM", "DESCRIPTION"],
             ["Display Size", "6 Inch(Digital)"],
@@ -395,8 +395,7 @@ window.productList = [
     {
       category: "ADAS",
       items: [
-
-
+        
           { name: "To Be Updated", subCategory:"",description: "-", image: "images/product/tbu.jpeg",
           specs:[
             ["ITEM", "DESCRIPTION"],
