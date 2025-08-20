@@ -416,7 +416,7 @@ window.productList = [
             ["Dust/Waterproof Rating", "IP54"],
           ] },
 
-          { name: "YK-S01", subCategory:"",description: "Ultrasonic object radar/sensor", image: "images/product/YK-S01.png", pdf: "pdfs/ADAS/YK-S01.pdf",
+          { name: "YK-S01", subCategory:"",description: "Ultrasonic object radar/sensor", image: "images/product/tbu.jpeg", pdf: "pdfs/ADAS/YK-S01.pdf",
           specs:[
             ["ITEM", "DESCRIPTION"],
             ["Display Size", ""],
