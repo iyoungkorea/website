@@ -99,10 +99,10 @@ const history = {
     <p>Developed and produced metal HD waterproof monitors (IP69K)</p>
     <br>
     <h3 style= "color:#4f86c1;">2023</h3>
-    <p>Development, production, and export of child school bus safety disembarkation system</p>
+    <p>Developed, produced, and exported child school bus safety disembarkation system</p>
     <br>
     <h3 style= "color:#4f86c1;">2024</h3>
-    <p>Development and production of monitor system for military heavyduty vehicle</p>
+    <p>Developed and produced monitor system for military heavyduty vehicle</p>
     
     `,
     
