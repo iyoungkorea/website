@@ -91,7 +91,7 @@ window.productList = [
           ["Function", "*IPS panel Viewing Angle<br>(up/down/left/right 80°<br><br>*Maximum Video Trigger Linkage<br>*AUTO DIMMER<br>*Parking assistance system"],
           ["Accessory", "Remote Control-option"],
         ] },
-        { name: "YK-101HM", subCategory: "8,9,10 Inch", description: "-", image: "images/product/101HM.jpeg", pdf:"pdfs/monitor/YK-101HM.pdf",
+        { name: "YK-101HM", subCategory: "8,9,10 Inch", description: "-", image: "images/product/YK-101QM.PNG", pdf:"pdfs/monitor/YK-101HM.pdf",
         specs:[
           ["ITEM", "DESCRIPTION"],
           ["Display Size", "10.1Inch (Diagonal)-IPS Panel"],
