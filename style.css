@@ -917,7 +917,6 @@ h3.gt4 {
     margin-top: 20vh;
     position: sticky;
     top: 1vh;
-    margin-bottom: -7vh;
   }
 
   #nav-bar nav a {
@@ -928,6 +927,10 @@ h3.gt4 {
     margin: 0 10px;
     font-weight: bold;
     transition: text-shadow 1 ease;
+  }
+
+  #nav-bar nav hr {
+    margin-bottom: 0vh;
   }
   
   
