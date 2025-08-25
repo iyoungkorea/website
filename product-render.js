@@ -55,7 +55,11 @@
               card.innerHTML = `
               <div class="image-container">
                 ${pdfButton}
-                <img src="${product.image}" alt="${product.name}">
+                ${product.images 
+                  ? product.images.map((src, i) => 
+                      `<img src="${src}" alt="${product.name}" class="slideshow ${i===0?'active':''}">`
+                    ).join("")
+                  : `<img src="${product.image}" alt="${product.name}">`}
                 ${specTable}
               </div>
               <p><strong>${product.name}</strong></p>  

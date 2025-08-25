@@ -532,6 +532,36 @@ h3.gt4 {
   display: block;
 }
 
+.image-container img.slideshow {
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right:0;
+
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  opacity: 0;
+  display: block;
+  animation: fadeSlide 6s infinite;
+}
+
+.image-container img.slideshow:nth-child(1) {
+  animation-delay: 0s;
+}
+.image-container img.slideshow:nth-child(2) {
+  animation-delay: 3s;
+}
+/* add more nth-child if >2 images */
+
+@keyframes fadeSlide {
+  0%, 100% { opacity: 0; }
+  10%, 40% { opacity: 1; }
+}
+
+
 
 .product-card h4, .product-card p {
   margin: 5px 10px;
