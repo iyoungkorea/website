@@ -97,7 +97,14 @@ const history = {
     <p>Developed and exported HD wireless monitor & camera systems</p>
     <p>Developed and exported digital ultrasonic driver assistance systems</p>
     <p>Developed and produced metal HD waterproof monitors (IP69K)</p>
-    <br>`,
+    <br>
+    <h3 style= "color:#4f86c1;">2023</h3>
+    <p>Development, production, and export of child school bus safety disembarkation system</p>
+    <br>
+    <h3 style= "color:#4f86c1;">2024</h3>
+    <p>Development and production of monitor system for military heavyduty vehicle</p>
+    
+    `,
     
     
     JP: `<h3 style="color:#4f86c1;">1996.8</h3>
@@ -193,7 +200,14 @@ const history = {
     <h3 style="color:#4f86c1;">2021</h3>
     <p>高画質（HD級）ワイヤレスモニター＆カメラシステムを開発・製造・輸出</p>
     <p>デジタル超音波運転支援システムを開発・製造・輸出</p>
-    <p>金属製HD防水モニター（IP69K）を開発・製造</p><br></br>`,
+    <p>金属製HD防水モニター（IP69K）を開発・製造</p><br>
+    </br>
+    <h3 style= "color:#4f86c1;">2023</h3>
+    <p>子供用スクールバス安全下車システムの開発・生産・輸出</p>
+    <br>
+    <h3 style= "color:#4f86c1;">2024</h3>
+    <p>軍用ブルドーザー用モニターシステムの開発・生産</p>
+`,
     
     
     
@@ -293,7 +307,14 @@ const history = {
     <h3 style="color:#4f86c1;">2021</h3>
     <p>开发、生产并出口高清（HD级）无线显示器与摄像头系统</p>
     <p>开发、生产并出口数字超声波驾驶辅助系统</p>
-    <p>开发、生产金属防水高清显示器（IP69K）</p><br>`,
+    <p>开发、生产金属防水高清显示器（IP69K）</p><br>
+    
+    <h3 style= "color:#4f86c1;">2023</h3>
+    <p>儿童校车安全下车系统的开发、生产与出口</p>
+    <br>
+    <h3 style= "color:#4f86c1;">2024</h3>
+    <p>军用推土机监视系统的开发与生产</p>
+    `,
    
    
     KR: `<h3 style= "color:#4f86c1;">1996.8</h3>
@@ -393,5 +414,11 @@ const history = {
     <p> -고화질 (HD급) 무선 모니터&카메라 시스템 개발 생산 수출</p>
     <p> -디지털 초음파 운전 보조 시스템 개발 생산 수출</p>
     <p> -메탈 HD 방수모니터 (IP69K)개발 생산</p>
-    <br></br>`
+    <br>
+    <h3 style= "color:#4f86c1;">2023</h3>
+    <p>어린이 통학버스 안전하차시스템 개발 생산 수출 </p>
+    <br>
+    <h3 style= "color:#4f86c1;">2024</h3>
+    <p>군용 불도져 모니터 시스템 개발 생산 </p>
+    `
 };
