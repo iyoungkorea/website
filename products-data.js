@@ -91,7 +91,7 @@ window.productList = [
           ["Function", "*IPS panel Viewing Angle<br>(up/down/left/right 80°<br><br>*Maximum Video Trigger Linkage<br>*AUTO DIMMER<br>*Parking assistance system"],
           ["Accessory", "Remote Control-option"],
         ] },
-        { name: "YK-101HM", subCategory: "8,9,10 Inch", description: "-", image: "images/product/YK-101QM.PNG", pdf:"pdfs/monitor/YK-101HM.pdf",
+        { name: "YK-101HM", subCategory: "8,9,10 Inch", description: "-", image: "images/product/YK-101QM.png", pdf:"pdfs/monitor/YK-101HM.pdf",
         specs:[
           ["ITEM", "DESCRIPTION"],
           ["Display Size", "10.1Inch (Diagonal)-IPS Panel"],
@@ -162,7 +162,7 @@ window.productList = [
             ["Dimension", "234(W) X 158(H) x 33(D)mm"],
             ["Accessory", "Remote Control<br>Sub Cable(1.5M)_DIN Connector"],
           ] },
-          { name: "YK-101QM", subCategory:"8,9,10 Inch",description: "-", image: "images/product/YK-101QM.PNG", pdf: "pdfs/monitor/YK-101QM.pdf",
+          { name: "YK-101QM", subCategory:"8,9,10 Inch",description: "-", image: "images/product/YK-101QM.png", pdf: "pdfs/monitor/YK-101QM.pdf",
           specs:[
             ["ITEM", "DESCRIPTION"],
             ["Display Size", "10.1 Inch (Diagonal)<br>IPS Panel"],
