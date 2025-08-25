@@ -183,7 +183,7 @@ window.productList = [
             ["Other", "Built in Speaker"],
             ["Accessory", "Remote Control<br>EXT. CABLE : (Length = 1.5M) - Total = 2 Meter"],
           ] },
-          { name: "YK-900HD", subCategory:"8,9,10 Inch",description: "-", image: "images/product/900HD_IPS.jpeg", pdf: "pdfs/monitor/",
+          { name: "YK-900HM", subCategory:"8,9,10 Inch",description: "-", image: "images/product/900HD_IPS.jpeg", pdf: "pdfs/monitor/",
           specs:[
             ["ITEM", "DESCRIPTION"],
             ["Display Size", "10.1 Inch (Diagonal)<br>IPS Panel"],
