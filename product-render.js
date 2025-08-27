@@ -113,6 +113,21 @@
   
       container.appendChild(section);
     });
+
+    document.querySelectorAll(".image-container").forEach(container => {
+      const slides = container.querySelectorAll("img.slideshow");
+      const count = slides.length;
+      if (count === 0) return;
+  
+      const duration = count * 3; // 3s per image
+  
+      slides.forEach((img, index) => {
+        img.style.animationDuration = `${duration}s`;
+        img.style.animationDelay = `${index * 3}s`;
+      });
+    });
+
+
   });
   
   document.addEventListener("click", (e) => {
@@ -131,3 +146,10 @@
       }
     }
   });
+
+
+
+
+
+
+

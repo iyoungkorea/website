@@ -545,16 +545,9 @@ h3.gt4 {
   object-fit: contain;
   opacity: 0;
   display: block;
-  animation: fadeSlide 6s infinite;
+  animation: fadeSlide infinite;
 }
 
-.image-container img.slideshow:nth-child(1) {
-  animation-delay: 0s;
-}
-.image-container img.slideshow:nth-child(2) {
-  animation-delay: 3s;
-}
-/* add more nth-child if >2 images */
 
 @keyframes fadeSlide {
   0%, 100% { opacity: 0; }
