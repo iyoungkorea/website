@@ -392,7 +392,7 @@ window.productList = [
             ["ITEM", "DESCRIPTION"],
             ["Display Size", "7 Inch LCD Back light"],
             ["Resolution","800 X 480"],
-            ["Video system","CVBS/ AHD/ TVI"]
+            ["Video system","CVBS/ AHD/ TVI"],
             ["Receive","AV1 (AHD 720p 30fps), No Audio"],
             ["Luminance","400 ㏅/㎡"],
             ["External Input","AV2(NTSC/ 720p 30fps/ 1080p30fps + MONO)"],
