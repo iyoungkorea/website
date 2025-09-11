@@ -13,8 +13,8 @@ const translations = {
         
         
         welcomeTitle: "Welcome to YoungKorea Co.,Ltd",
-        welcomeText: "Welcome to YoungKorea. Co.,Ltd. Explore our trusted automotive AV and security solutions designed to improve driving safety worldwide.",        
-        welcome2Title: "A leader in the innovation of automotive AV and security solutions.",
+        welcomeText: "Welcome to YoungKorea Co., Ltd. Explore field-proven OEM/ODM driver-assistance displays, cameras, sensors, and other ADAS system engineered to enhance safety, reliability, and operational efficiency for fleets and specialty vehicles worldwide.",
+        welcome2Title: "A leader in the innovation of automotive vehicle's assistance and security solutions.",
         welcome2Text: "YoungKorea Co., Ltd. is a specialized company that independently researches, develops, and manufactures in-vehicle TVs, monitors, cameras, black boxes, and navigation systems. Our R&D team, composed of experts with 30 years of experience, is dedicated to achieving the highest standards of performance and quality. As a result, we have earned recognition for our superior quality and technological excellence in both domestic and international markets, receiving high praise from buyers and consumers alike.",
         welcome3Title: "30 Years of Excellence in OEM/ODM Automotive Solutions",
         welcome3Text: "YoungKorea has successfully manufactured and supplied a wide range of driver assistance systems to customers worldwide for the past 30 years. In particular, we have built a strong track record in OEM and ODM solutions for automotive display and camera systems. By focusing on customized wiring, software programming, and robust industrial design, we have established long-term partnerships across diverse markets. Our business partners include not only domestic and international companies, but also local city bus operators and military-related institutions.",
@@ -116,7 +116,7 @@ const translations = {
         
         
         welcomeTitle: "영코리아㈜에 오신 것을 환영합니다",
-        welcomeText: "영코리아㈜에 오신 것을 환영합니다. 운전 안전성을 향상시키기 위해 설계된 신뢰할 수 있는 자동차 보안 솔루션을 살펴보세요.",
+        welcomeText: "영코리아㈜에 오신 것을 환영합니다. 버스, 트럭, 상용·특수 차량을 위해 안전성, 신뢰성, 운영 효율을 향상시키도록 설계된, 현장에서 검증된 OEM/ODM 운전자 보조용 디스플레이, 카메라, 센서, 및 운전/안전보조 시스템을 만나보십시오.",
         welcome2Title: "자동차 AV 및 보안 솔루션 혁신의 선도자",
         welcome2Text: "영코리아㈜는 차량용 TVㅣ MONITORㅣCAMERAㅣ블랙박스ㅣ네비게이션|을 자체 연구, 개발, 생산하는 전문 업체입니다. 30년 경력의 전문가로 구성된 연구 개발팀은 최고의 성능과 품질을 위하여 혼신의 노력을 다하고 있으며 이로 말미암아 국내 및 해외 시장에서 품질과 기술력을 인정받아 바이어와 소비자로부터 호평을 받고 있는 회사입니다.",
         welcome3Title: "OEM/ODM 자동차 솔루션 분야 30년의 우수성과 신뢰",
@@ -221,7 +221,7 @@ const translations = {
        
        
         welcomeTitle: "ヤングコリア株式会社へようこそ",
-        welcomeText: "ヤングコリア株式会社へようこそ。運転の安全性を高める信頼性の高い車載AVおよびセキュリティソリューションをご覧ください。",
+        welcomeText: "ヤングコリア株式会社へようこそ。グローバルのフリートおよび特殊車両の安全性・信頼性・運用効率を高めるために設計された、実運用で検証済みのOEM/ODM運転支援用ディスプレイ、カメラ、センサー、その他のADASシステムをご紹介します。",
         welcome2Title: "車載AVおよびセキュリティ革新のリーダー",
         welcome2Text: "ヤングコリア株式会社は、車載用テレビ、モニター、カメラ、ドライブレコーダー、ナビゲーションシステムを独自に研究・開発・製造している専門企業です。30年以上の経験を持つ専門家による研究開発チームは、最高の性能と品質を追求しており、その結果、国内外の市場で優れた品質と技術力が高く評価され、バイヤーや消費者から高い評価を受けています。",
         welcome3Title: "OEM/ODM車載ソリューション分野における30年の実績と卓越性",
@@ -322,7 +322,7 @@ const translations = {
        
        
         welcomeTitle: "欢迎访问 YoungKorea Co.,Ltd",
-        welcomeText: "欢迎访问 YoungKorea Co.,Ltd。探索我们值得信赖的车载AV和安全解决方案，提升驾驶安全。",
+        welcomeText: "欢迎访问 YoungKorea Co., Ltd。探索经实地验证的 OEM/ODM 驾驶辅助显示器、摄像头、传感器及其他 ADAS 系统，这些产品旨在为全球车队与特种车辆提升安全性、可靠性与运营效率。",
         welcome2Title: "引领车载AV与安全解决方案创新的企业",
         welcome2Text: "YoungKorea Co., Ltd. 是一家专注于独立研发、设计和制造车载电视、监视器、摄像头、行车记录仪以及导航系统的专业公司。我们拥有由30年以上经验专家组成的研发团队，致力于在每个环节实现最高标准的性能与质量。因此，我们在国内外市场赢得了卓越品质和技术实力的认可，深受买家和消费者的好评。",
         welcome3Title: "深耕OEM/ODM汽车解决方案领域三十年 卓越品质与信赖",

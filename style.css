@@ -290,7 +290,7 @@ footer {
 }
 
 #welcome-1 {
-  flex:6;
+  flex:5;
   width: 60%;
   padding: 10px;
   text-align: center;
@@ -298,15 +298,15 @@ footer {
 }
 
 #welcome-2 {
-  flex: 4;
+  flex: 5;
   width: 40%;
   text-align: center;
   box-sizing: border-box;
-  left:3vw;
+  
 }
 
 #welcome-2 img{
-  width: 100%;
+  width: 90%;
   height: auto;
   box-shadow: 0 0 30px 15px rgba(255, 255, 255, 1);
   border-radius: 25px;
@@ -315,21 +315,21 @@ footer {
 
 
 #welcome-3 {
-  flex: 4;
+  flex: 5;
   width: 40%;
   text-align: center;
   box-sizing: border-box;
 }
 
 #welcome-3 img {
-  width: 80%;
+  width: 75%;
   height: auto;
   box-shadow: 0 0 30px 15px rgba(255, 255, 255, 1);
   border-radius: 15px;
 }
 
 #welcome-4 {
-  flex: 6;
+  flex: 5;
   width: 60%;
   padding: 10px;
   text-align: center;
@@ -338,7 +338,7 @@ footer {
 
 
 #welcome-5 {
-  flex:4;
+  flex:5;
   width: 60%;
   padding: 10px;
   text-align: center;
@@ -346,18 +346,18 @@ footer {
 }
 
 #welcome-6 {
-  flex: 6;
+  flex: 5;
   width: 40%;
   text-align: center;
   box-sizing: border-box;
-  left:3vw;
+  
 }
 
 #welcome-6 img{
-  width: 90%;
+  width: 65%;
   height: auto;
   box-shadow: 0 0 30px 15px rgba(255, 255, 255, 1);
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 #Partnership-link,
