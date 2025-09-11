@@ -37,7 +37,7 @@ const history = {
     <p>Developed Korea’s first 6.2-inch room mirror and exported to Japan</p>
     <br>
     <h3 style= "color:#4f86c1;">2007</h3>
-    <p>Signed annual 6 billion KRW supply contract with Japan / New OEM contracts with Japanese buyers</p>
+    <p>Signed annual 6 million USD supply contract with Japan / New OEM contracts with Japanese buyers</p>
     <p>Developed and exported DIGITAL TV (1-SEG) receiver, detachable 1-screen 4-split control box, and 7-inch room mirror monitor</p>
     <p>Developed and exported 1-SEG digital film antenna for Japan / OEM contract with NIIGATA Co.</p>
     <p>Obtained ISO-9001 international quality certification</p>
