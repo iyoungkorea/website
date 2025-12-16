@@ -133,7 +133,7 @@
                   <!-- outline ring from alpha -->
                   <filter id="yk-ring-filter" x="-20%" y="-20%" width="140%" height="140%">
                     <!-- thickness -->
-                    <feMorphology in="SourceAlpha" operator="dilate" radius="12" result="dilated"/>
+                    <feMorphology in="SourceAlpha" operator="dilate" radius="7" result="dilated"/>
                     <feComposite in="dilated" in2="SourceAlpha" operator="out" result="ring"/>
                     <feGaussianBlur in="ring" stdDeviation="0.6" result="softRing"/>
                     <!-- force ring to white while keeping alpha -->
