@@ -5,6 +5,57 @@ body, p {
   font-family: 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans', sans-serif;
 }
 
+
+.bordereffect{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+@keyframes rainbow-shift {
+  from { background-position: 100% 50%; }
+  to { background-position: 0 50%; }
+}
+
+.gt1, .gt2, .gt4 {text-shadow: 0 0 15px rgba(224, 180, 251, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(129, 168, 200),
+    rgb(124, 162, 195),
+    rgb(119, 156, 190),
+    rgb(114, 150, 185),
+    rgb(109, 144, 180),
+    rgb(104, 138, 175),
+    rgb(99, 132, 170),
+    rgb(94, 126, 165),
+    rgb(89, 120, 160),
+    rgb(84, 114, 155),
+    
+    rgb(129, 168, 200),
+    rgb(124, 162, 195),
+    rgb(119, 156, 190),
+    rgb(114, 150, 185),
+    rgb(109, 144, 180),
+    rgb(104, 138, 175),
+    rgb(99, 132, 170),
+    rgb(94, 126, 165),
+    rgb(89, 120, 160),
+    rgb(84, 114, 155)
+  );
+
+
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: rainbow-shift 7s linear infinite;
+}
+
+
+
 #sticky-banner {
   position: fixed;
   top: 0;
@@ -141,34 +192,12 @@ main {
 }
 
 
-.gt1 {
-  background: linear-gradient(to right, #356678fd, #3885a1fd, #1a596efd, #116786d3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  font-weight: bolder;
-}
-
-.gt2 {
-  background: linear-gradient(to right, #72bdd45d, #9e44e8, #72bdd45d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-} 
-
 .gt3 {
   background: linear-gradient(to right,  #34dbb4, #2e97cc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-
-.gt4 {
-  background: linear-gradient(to right, #458aad,  #1d3e67);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-}  
 
 .gt-line {
   border: none;

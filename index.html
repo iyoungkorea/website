@@ -94,7 +94,70 @@
         <hr class="gt-line" style="width: 70%;">
         </div>
         <div id="welcome-2">
-            <img src="images/building1C.png" alt="building img"> 
+            <!-- <img src="images/building1C.png" alt="building img">  -->
+            
+            
+            <svg class="bordereffect" viewBox="0 0 1473 825">
+                <defs>
+                  <linearGradient id="yk-border-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1473" y2="0">
+                    <stop offset="0%"   stop-color="#f2cfa0"/>  <!-- warm yellow -->
+                    <stop offset="10%"  stop-color="#d6f2a0"/>  <!-- yellow-green -->
+                    <stop offset="20%"  stop-color="#b0f2a0"/>  <!-- green -->
+                    <stop offset="30%"  stop-color="#a0f2c8"/>  <!-- mint -->
+                    <stop offset="40%"  stop-color="#a0f2e6"/>  <!-- cyan-green -->
+                    <stop offset="50%"  stop-color="#a0e6f2"/>  <!-- cyan -->
+                    <stop offset="60%"  stop-color="#a0c8f2"/>  <!-- blue-cyan -->
+                    <stop offset="70%"  stop-color="#a0b0f2"/>  <!-- soft blue -->
+                    <stop offset="80%"  stop-color="#b0a0f2"/>  <!-- periwinkle -->
+                    <stop offset="90%"  stop-color="#c8a0f2"/>  <!-- lavender -->
+                    <stop offset="100%" stop-color="#e0a0f2"/>  <!-- pink-violet -->
+
+                    <!-- animate gradient coordinates (colors flow, border stays) -->
+                    <animate attributeName="x1"
+                            dur="8s"
+                            repeatCount="indefinite"
+                            values="0;1473;0"
+                            keyTimes="0;0.5;1"
+                            calcMode="spline"
+                            keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+
+                    <animate attributeName="x2"
+                            dur="8s"
+                            repeatCount="indefinite"
+                            values="1473;2946;1473"
+                            keyTimes="0;0.5;1"
+                            calcMode="spline"
+                            keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+                  </linearGradient>
+              
+                  <!-- outline ring from alpha -->
+                  <filter id="yk-ring-filter" x="-20%" y="-20%" width="140%" height="140%">
+                    <!-- thickness -->
+                    <feMorphology in="SourceAlpha" operator="dilate" radius="12" result="dilated"/>
+                    <feComposite in="dilated" in2="SourceAlpha" operator="out" result="ring"/>
+                    <feGaussianBlur in="ring" stdDeviation="0.6" result="softRing"/>
+                    <!-- force ring to white while keeping alpha -->
+                    <feColorMatrix in="softRing" type="matrix"
+                      values="0 0 0 0 1
+                              0 0 0 0 1
+                              0 0 0 0 1
+                              0 0 0 1 0" />
+                  </filter>
+              
+                  <mask id="yk-ring-mask" maskUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="1473" height="825" fill="black"/>
+                    <image href="images/building1C.png" width="1473" height="825" filter="url(#yk-ring-filter)"/>
+                  </mask>
+                </defs>
+              
+                <!-- fixed outline ring filled by animated gradient -->
+                <rect x="0" y="0" width="1473" height="825" fill="url(#yk-border-grad)" mask="url(#yk-ring-mask)"/>
+              
+                <!-- original PNG on top -->
+                <image href="images/building1C.png" width="1473" height="825"/>
+              </svg>
+
+
         </div>
     </div>   
 
@@ -102,7 +165,8 @@
 
     <div id="welcome-body2">
         <div id="welcome-3">
-            <img src="images/entrance.png" alt="entrance img">
+           <img src="images/entrance.png" alt="entrance img"> 
+           
         </div>
         <div id="welcome-4">
         <h2 class="gt1" id="welcome2-title"></h2>
