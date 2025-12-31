@@ -19,39 +19,53 @@ body, p {
   to { background-position: 0 50%; }
 }
 
-.gt1, .gt2, .gt4 {text-shadow: 0 0 15px rgba(224, 180, 251, 0);
+
+
+.gt1, .gt2, .gt4 {
+  text-shadow: 0 0 15px rgba(224, 180, 251, 0);
   background: linear-gradient(
-    90deg,
-    rgb(129, 168, 200),
-    rgb(124, 162, 195),
-    rgb(119, 156, 190),
-    rgb(114, 150, 185),
-    rgb(109, 144, 180),
-    rgb(104, 138, 175),
-    rgb(99, 132, 170),
-    rgb(94, 126, 165),
-    rgb(89, 120, 160),
-    rgb(84, 114, 155),
-    
-    rgb(129, 168, 200),
-    rgb(124, 162, 195),
-    rgb(119, 156, 190),
-    rgb(114, 150, 185),
-    rgb(109, 144, 180),
-    rgb(104, 138, 175),
-    rgb(99, 132, 170),
-    rgb(94, 126, 165),
-    rgb(89, 120, 160),
-    rgb(84, 114, 155)
+    75deg,
+
+    rgb(129, 180, 180),
+    rgb(129, 178, 182),
+    rgb(129, 176, 184),
+    rgb(129, 174, 186),
+    rgb(129, 170, 188),
+    rgb(129, 166, 190),
+    rgb(129, 162, 192),
+    rgb(129, 158, 194),
+    rgb(129, 154, 196),
+    rgb(129, 150, 198),
+    rgb(129, 146, 200),
+    rgb(129, 142, 202),
+    rgb(129, 138, 204),
+    rgb(129, 134, 206),
+    rgb(129, 130, 208),
+
+    rgb(129, 180, 180),
+    rgb(129, 178, 182),
+    rgb(129, 176, 184),
+    rgb(129, 174, 186),
+    rgb(129, 174, 186),
+    rgb(129, 170, 188),
+    rgb(129, 166, 190),
+    rgb(129, 162, 192),
+    rgb(129, 158, 194),
+    rgb(129, 154, 196),
+    rgb(129, 150, 198),
+    rgb(129, 146, 200),
+    rgb(129, 142, 202),
+    rgb(129, 138, 204),
+    rgb(129, 134, 206),
+    rgb(129, 130, 208)
+   
   );
-
-
   background-size: 200% 200%;
   background-position: 0% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: rainbow-shift 7s linear infinite;
+  animation: rainbow-shift 3s linear infinite;
 }
 
 
