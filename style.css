@@ -65,7 +65,7 @@ body, p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: rainbow-shift 3s linear infinite;
+  animation: rainbow-shift 2s linear infinite;
 }
 
 
