@@ -266,6 +266,7 @@ main {
   margin: 0 15px;
   font-weight: bolder;
   transition: text-shadow 1s ease;
+  text-decoration: none;
 }
 
 
