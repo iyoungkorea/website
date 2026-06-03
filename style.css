@@ -128,7 +128,7 @@ body, p {
   background: rgba(255, 255, 255, 0);
   cursor: pointer;
   font-size: 19px;
-  border: none;이프리
+  border: none;
   outline: none;
   transition: text-shadow 0.3s ease;
 }
@@ -964,6 +964,7 @@ h3.gt4 {
     margin: 0 10px;
     font-weight: bold;
     transition: text-shadow 1 ease;
+    text-decoration: none;
   }
 
   #nav-bar nav hr {
